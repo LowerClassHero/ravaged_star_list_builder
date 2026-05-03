@@ -49,7 +49,7 @@
   /* HEADER */
   header { background: var(--bg-deep); border-bottom: 1px solid var(--faction-border); padding: 0 2rem; height: 64px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 20px rgba(0,0,0,0.6); transition: border-color 0.3s; }
   .logo { display: flex; align-items: center; gap: 12px; }
-  .logo-icon { width: 48px; height: 48px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+  .logo-icon { width: 72px; height: 72px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
   .logo-icon img { width: 100%; height: 100%; object-fit: contain; }
   .logo-text { font-family: var(--font-display); font-size: 22px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; }
   .logo-text span { color: var(--faction-color-bright); transition: color 0.3s; }
@@ -148,12 +148,12 @@
 
   /* FACTION SELECTOR */
   .faction-selector { padding: 1.5rem 2rem; background: var(--bg-mid); border-bottom: 1px solid var(--border); display: flex; flex-direction: column; align-items: center; gap: 1rem; position: relative; background-image: url("images/background/Immari_Home_Planet.png"); background-size: cover; background-position: center; }
-  .faction-selector::before { content: ""; position: absolute; inset: 0; background: rgba(10,11,13,0.72); pointer-events: none; z-index: 0; }
+  .faction-selector::before { content: ""; position: absolute; inset: 0; background: rgba(10,11,13,0.45); pointer-events: none; z-index: 0; }
   .faction-selector > * { position: relative; z-index: 1; }
   .selector-label { font-family: var(--font-display); font-size: 14px; font-weight: 700; letter-spacing: 2px; color: var(--text-primary); text-transform: uppercase; }
   .faction-grid { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
   .faction-card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px; padding: 8px 16px; cursor: pointer; transition: all 0.2s; font-family: var(--font-display); font-size: 16px; font-weight: 600; letter-spacing: 1px; color: var(--text-secondary); text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
-  .faction-card img { width: 28px; height: 28px; object-fit: contain; flex-shrink: 0; opacity: 0.75; transition: opacity 0.2s; }
+  .faction-card img { width: 35px; height: 35px; object-fit: contain; flex-shrink: 0; opacity: 0.75; transition: opacity 0.2s; }
   .faction-card:hover img, .faction-card.active img { opacity: 1; }
   .faction-card:hover { border-color: var(--f-color, var(--faction-color)); color: var(--text-primary); background: var(--bg-raised); }
   .faction-card.active { border-color: var(--f-color, var(--faction-color)); background: var(--f-dim, var(--faction-color-dim)); color: var(--f-bright, var(--faction-color-bright)); }
@@ -162,7 +162,7 @@
   /* TABS */
   .type-tabs { display: flex; background: var(--bg-deep); border-bottom: 1px solid var(--border); padding: 0 1.5rem; gap: 0; justify-content: center; }
   .type-tab { padding: 12px 18px; font-family: var(--font-display); font-size: 15px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--text-bright-gray); cursor: pointer; border: none; background: none; border-bottom: 2px solid transparent; transition: all 0.2s; margin-bottom: -1px; display: inline-flex; align-items: center; gap: 7px; }
-  .type-tab img { width: 22px; height: 22px; object-fit: contain; opacity: 0.6; transition: opacity 0.2s; }
+  .type-tab img { width: 28px; height: 28px; object-fit: contain; opacity: 0.6; transition: opacity 0.2s; }
   .type-tab.active img, .type-tab:hover img { opacity: 1; }
   .type-tab:hover { color: var(--text-secondary); }
   .type-tab.active { color: var(--text-primary); border-bottom-color: var(--faction-color); transition: border-color 0.3s, color 0.2s; }
@@ -1178,7 +1178,13 @@ function renderTabs() {
   }).join('');
 }
 
-function selectType(type) { activeType = type; renderTabs(); renderUnits(); }
+function selectType(type) {
+  activeType = type;
+  renderTabs();
+  renderUnits();
+  const browser = document.querySelector('.unit-browser');
+  if (browser) browser.scrollTop = 0;
+}
 
 // ─── RENDER: UNIT CARDS ───────────────────────────────────
 function renderUnits() {
