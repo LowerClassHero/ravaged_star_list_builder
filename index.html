@@ -147,7 +147,7 @@
   .browser-panel { display: flex; flex-direction: column; overflow: hidden; background: var(--bg-deepest); }
 
   /* FACTION SELECTOR */
-  .faction-selector { padding: 1.5rem 2rem; background: var(--bg-mid); border-bottom: 1px solid var(--border); display: flex; flex-direction: column; align-items: center; gap: 1rem; position: relative; background-image: url("images/background/Immari_Home_Planet.png"); background-size: cover; background-position: center; }
+  .faction-selector { padding: 1.5rem 2rem; background-color: var(--bg-mid); background-image: url("images/background/Immari_Home_Planet.png"); background-size: cover; background-position: center; border-bottom: 1px solid var(--border); display: flex; flex-direction: column; align-items: center; gap: 1rem; position: relative; }
   .faction-selector::before { content: ""; position: absolute; inset: 0; background: rgba(10,11,13,0.45); pointer-events: none; z-index: 0; }
   .faction-selector > * { position: relative; z-index: 1; }
   .selector-label { font-family: var(--font-display); font-size: 14px; font-weight: 700; letter-spacing: 2px; color: var(--text-primary); text-transform: uppercase; }
@@ -186,8 +186,13 @@
   .unit-card-faction { font-family: var(--font-mono); font-size: 12px; color: var(--text-bright-gray); letter-spacing: 1px; margin-top: 3px; text-transform: uppercase; }
   .unit-card-cost { font-family: var(--font-display); font-size: 20px; font-weight: 700; color: var(--gold); line-height: 1; flex-shrink: 0; margin-left: 8px; }
   .unit-card-cost-label { font-family: var(--font-mono); font-size: 11px; color: var(--gold-dim); text-align: right; letter-spacing: 1px; }
-  .unit-card-img { height: 120px; background: var(--bg-mid); display: flex; align-items: center; justify-content: center; overflow: hidden; }
-  .unit-card-img img { width: 100%; height: 100%; object-fit: cover; opacity: 0.85; }
+  .unit-card-img { height: 120px; background: var(--bg-mid); display: flex; align-items: center; justify-content: center; overflow: hidden; cursor: pointer; position: relative; }
+  .unit-card-img img { width: 100%; height: 100%; object-fit: cover; opacity: 0.85; transition: transform 0.25s ease, opacity 0.25s ease; }
+  .unit-card-img:hover img { transform: scale(1.06); opacity: 1; }
+  .unit-card-img::after { content: "VIEW CARD"; position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.55); color: #fff; font-family: var(--font-mono); font-size: 10px; letter-spacing: 2px; text-align: center; padding: 4px 0; opacity: 0; transition: opacity 0.2s; }
+  .unit-card-img:hover::after { opacity: 1; }
+  .unit-card-img.no-card { cursor: default; }
+  .unit-card-img.no-card::after { display: none; }
   .card-img-placeholder { display: flex; flex-direction: column; align-items: center; gap: 6px; color: var(--text-dim); }
   .card-img-placeholder-icon { font-size: 28px; opacity: 0.3; font-family: var(--font-display); letter-spacing: 2px; font-weight: 700; }
   .card-img-placeholder-text { font-family: var(--font-mono); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; opacity: 0.4; }
@@ -253,7 +258,8 @@
 /* UNIT CARD VIEWER POPUP */
   .card-viewer-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 600; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(6px); opacity: 0; pointer-events: none; transition: opacity 0.2s; }
   .card-viewer-overlay.open { opacity: 1; pointer-events: all; }
-  .card-viewer-container { position: relative; width: min(520px, 90vw, 80vh); max-width: 92vw; }
+  .card-viewer-container { position: relative; width: min(460px, 90vw); max-width: 92vw; transition: width 0.3s ease; }
+  .card-viewer-container.zoomed { width: min(740px, 96vw); }
   .card-viewer-close { position: absolute; top: -14px; right: -14px; width: 32px; height: 32px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: 50%; color: var(--text-secondary); font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; transition: all 0.15s; line-height: 1; }
   .card-viewer-close:hover { background: var(--accent); border-color: var(--accent); color: white; }
   .card-viewer-flip { width: 100%; aspect-ratio: 63 / 88; perspective: 1000px; cursor: pointer; }
@@ -266,6 +272,9 @@
   .card-viewer-no-image-icon { font-family: var(--font-display); font-size: 40px; color: var(--text-dim); opacity: 0.25; font-weight: 700; letter-spacing: 3px; }
   .card-viewer-no-image p { font-family: var(--font-body); font-size: 15px; color: var(--text-dim); line-height: 1.5; }
   .card-viewer-hint { text-align: center; margin-top: 10px; font-family: var(--font-mono); font-size: 16px; color: var(--text-dim); letter-spacing: 1px; opacity: 0.7; }
+  .card-viewer-controls { display: flex; justify-content: center; gap: 12px; margin-top: 8px; }
+  .card-viewer-zoom-btn { font-family: var(--font-mono); font-size: 11px; letter-spacing: 1px; padding: 4px 12px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: 3px; color: var(--text-secondary); cursor: pointer; transition: all 0.15s; text-transform: uppercase; }
+  .card-viewer-zoom-btn:hover { border-color: var(--faction-color); color: var(--faction-color-bright); background: var(--faction-color-dim); }
 
   
   /* SR GLOSSARY POPUP */
@@ -282,7 +291,7 @@
   .sr-popup-unknown { font-style: italic; color: var(--text-dim); }
 
   /* CARD FOOTER */
-  .unit-card-footer { padding: 10px 14px; border-top: 1px solid var(--border); display: flex; gap: 8px; background: var(--bg-raised); }
+  .unit-card-footer { display: none; }
 
   /* BUTTONS */
   .btn { font-family: var(--font-display); font-size: 14px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; padding: 8px 16px; border-radius: 3px; border: none; cursor: pointer; transition: all 0.15s; display: inline-flex; align-items: center; gap: 6px; }
@@ -463,7 +472,7 @@
 </div>
 
 <div class="card-viewer-overlay" id="cardViewerOverlay" onclick="closeCardViewer(event)">
-  <div class="card-viewer-container">
+  <div class="card-viewer-container" id="cardViewerContainer">
     <button class="card-viewer-close" onclick="document.getElementById('cardViewerOverlay').classList.remove('open')">✕</button>
     <div class="card-viewer-flip" id="cardViewerFlip" onclick="flipCard()">
       <div class="card-viewer-inner">
@@ -471,7 +480,10 @@
         <div class="card-viewer-face back" id="cardViewerBack"></div>
       </div>
     </div>
-    <div class="card-viewer-hint" id="cardViewerHint"></div>
+    <div class="card-viewer-controls">
+      <div class="card-viewer-hint" id="cardViewerHint"></div>
+      <button class="card-viewer-zoom-btn" id="cardViewerZoomBtn" onclick="toggleCardZoom()">⤢ Zoom In</button>
+    </div>
   </div>
 </div>
 
@@ -729,6 +741,13 @@ function closeOptionsModal() {
 }
 
 // ─── CARD VIEWER ─────────────────────────────────────────
+function toggleCardZoom() {
+  const container = document.getElementById('cardViewerContainer');
+  const btn = document.getElementById('cardViewerZoomBtn');
+  const isZoomed = container.classList.toggle('zoomed');
+  btn.textContent = isZoomed ? '⤡ Zoom Out' : '⤢ Zoom In';
+}
+
 function openCardViewer(unitKey) {
   const unit = UNIT_DB[unitKey];
   if (!unit) return;
@@ -741,6 +760,9 @@ function openCardViewer(unitKey) {
   const flipEl  = document.getElementById('cardViewerFlip');
 
   flipEl.classList.remove('flipped');
+  // Reset zoom
+  document.getElementById('cardViewerContainer').classList.remove('zoomed');
+  document.getElementById('cardViewerZoomBtn').textContent = '⤢ Zoom In';
 
   if (!front && !back) {
     frontEl.innerHTML = `<div class="card-viewer-no-image">
@@ -1207,12 +1229,6 @@ function buildUnitCard(key, unit, delay = 0) {
   const inRoster = roster.find(e => e.unitKey === key);
 
   const isMerc = a.faction === 'Mercenaries' && selectedFaction !== 'Mercenaries';
-  const imgSection = a.card_front
-    ? `<div class="unit-card-img"><img src="${a.card_front}" alt="${a.name}" /></div>`
-    : `<div class="unit-card-img"><div class="card-img-placeholder">
-        <div class="card-img-placeholder-icon">${a.unit_type.toUpperCase()}</div>
-        <div class="card-img-placeholder-text">No Card Art</div>
-       </div></div>`;
 
   const weaponRows = weapons.map(w => {
     const ws = w.wStats;
@@ -1240,8 +1256,8 @@ function buildUnitCard(key, unit, delay = 0) {
   const mercLabel = isMerc ? `<span class="unique-badge" style="background:rgba(156,163,175,0.15);border-color:rgba(156,163,175,0.4);color:#d1d5db">MERC</span>` : '';
   const hasOpts = unitHasOptions(key);
   const sizePair = VARIABLE_SIZE_PAIRS[key];
+  const escapedKey = key.replace(/'/g, "\\'");
 
-  // For variable size units, show size range and cost range
   let sizeDisplay = `Unit Size: ${a.unit_size}`;
   let costDisplay = `${a.cost}`;
   if (sizePair) {
@@ -1251,17 +1267,25 @@ function buildUnitCard(key, unit, delay = 0) {
     if (altCost !== a.cost) costDisplay = `${a.cost}–${altCost}`;
   }
 
-  // Show ⚙ CONFIGURE button for units with options, plain ADD for others
-  const addBtn = hasOpts
-    ? `<button class="btn btn-add btn-sm" onclick="addUnit('${key.replace(/'/g,"\\'")}')">⚙ CONFIGURE &amp; ADD</button>`
-    : `<button class="btn btn-add btn-sm" onclick="addUnit('${key.replace(/'/g,"\\'")}')">+ ADD TO ROSTER</button>`;
+  // Image section: clickable only if card image exists, hover zoom + VIEW CARD overlay
+  const hasCardImg = !!(a.card_front || a.card_back);
+  const imgSection = a.card_front
+    ? `<div class="unit-card-img" onclick="openCardViewer('${escapedKey}')" title="View unit card">
+        <img src="${a.card_front}" alt="${a.name}" />
+       </div>`
+    : `<div class="unit-card-img no-card">
+        <div class="card-img-placeholder">
+          <div class="card-img-placeholder-icon">${a.unit_type.toUpperCase()}</div>
+          <div class="card-img-placeholder-text">No Card Art</div>
+        </div>
+       </div>`;
 
   return `<div class="unit-card ${inRoster ? 'selected-card' : ''}" style="animation-delay:${delay*0.04}s">
     <div class="unit-card-header">
-      <button class="unit-card-quick-add" onclick="addUnit('${key.replace(/'/g,"\\'")}')">+</button>
+      <button class="unit-card-quick-add" onclick="addUnit('${escapedKey}')" title="${hasOpts ? 'Configure & Add to Roster' : 'Add to Roster'}">+</button>
       <div style="flex:1;min-width:0">
         <div class="unit-card-name">${a.name}${a.unique ? ' <span class="unique-badge">UNIQUE</span>' : ''}${mercLabel}</div>
-        <div class="unit-card-faction">${a.sub_faction ? a.sub_faction + ' · ' : ''}${sizeDisplay} · Base Size: ${a.base_size}mm</div>
+        <div class="unit-card-faction">${a.sub_faction ? a.sub_faction + ' · ' : ''}${sizeDisplay} · Base: ${a.base_size}mm</div>
       </div>
       <div style="text-align:right;flex-shrink:0;margin-left:8px">
         <div class="unit-card-cost">${costDisplay}</div>
@@ -1288,10 +1312,6 @@ function buildUnitCard(key, unit, delay = 0) {
       return `<div class="unit-options"><div class="unit-options-label">Options</div>${items}</div>`;
     })()}
     ${boostSection}
-    <div class="unit-card-footer">
-      ${addBtn}
-      <button class="btn btn-view-card btn-sm" onclick="openCardViewer('${key.replace(/'/g,"\\'")}')">☰ UNIT CARD</button>
-    </div>
   </div>`;
 }
 
