@@ -1,0 +1,2873 @@
+{
+  "Lord_Davicus_the_Afflicted": {
+    "admin": {
+      "uid": 1,
+      "name": "Lord Davicus the Afflicted",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Davicus",
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 90
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 8,
+      "DEF": 4,
+      "LD": 3
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Inspiring (12\")",
+      "sr3": "Target Coordination (12\")",
+      "sr4": "Bulky (2)",
+      "sr5": "Character"
+    },
+    "boosts": {
+      "boost1": "Battle Synergy (12\"), Corrupted Claw gets Piercing (8+, 4)",
+      "boost2": "Swift and Impact (4)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 1,
+          "wname": "Corrupted Pistol",
+          "wRNG": 4,
+          "wATT": 2,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault",
+          "wSR2": "Piercing (7+, 4)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 2,
+          "wname": "Corrupted Claw",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Lord_Davicus_the_Corrupted": {
+    "admin": {
+      "uid": 2,
+      "name": "Lord Davicus the Corrupted",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Davicus",
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 10,
+      "DEF": 4,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Fear (6\")",
+      "sr3": "Battle Synergy (12\")",
+      "sr4": "Bulky (2)",
+      "sr5": "Character"
+    },
+    "boosts": {
+      "boost1": "Aura of Corruption gains Nova (4)",
+      "boost2": "Swift and Impact (4)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 3,
+          "wname": "Aura of Corruption",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Stun",
+          "wSR4": "Nova (2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 4,
+          "wname": "Corrupted Claw and Sword",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Reaping (8+, 2)",
+          "wSR3": "Piercing (8+, 4)"
+        }
+      }
+    }
+  },
+  "Yisharra": {
+    "admin": {
+      "uid": 3,
+      "name": "Yisharra, Shepherd of the Damned",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Yisharra",
+      "unit_size": 1,
+      "base_size": "120x92",
+      "cost": 105
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 12,
+      "DEF": 5,
+      "LD": 3
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Inspiring (12\")",
+      "sr3": "Fear (12\")",
+      "sr4": "Large",
+      "sr5": "Armored (2)",
+      "sr6": "Heavy Impact (2)",
+      "sr7": "Fly"
+    },
+    "boosts": {
+      "boost1": "Swift and Bloodthirsty",
+      "boost2": "Aura of Fear gains Stun, RNG 12\", and Nova (4)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 5,
+          "wname": "Aura of Fear",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Stun",
+          "wSR3": "Nova (2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 6,
+          "wname": "Fear's End - Scything Attack",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Reaping (8+, 3)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 7,
+          "wname": "Fear's End - Piercing Attack",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Anti-Armor (8+)",
+          "wSR3": "Piercing (8+, 4)"
+        }
+      }
+    }
+  },
+  "Lord_Tyrach": {
+    "admin": {
+      "uid": 4,
+      "name": "Lord Tyrach",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Tyrach",
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 8,
+      "DEF": 4,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Bulky (2)",
+      "sr3": "Fear (6\")",
+      "sr4": "Bloodthirsty",
+      "sr5": "Character"
+    },
+    "boosts": {
+      "boost1": "Swift and Battle Synergy (12\")",
+      "boost2": "Melee weapons gain Piercing (7+, 4) and Reaping (7+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 8,
+          "wname": "The Executioner",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 4
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Lord_Tyrach_on_Asalian_Devourer": {
+    "admin": {
+      "uid": 5,
+      "name": "Lord Tyrach riding Asalian Devourer",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Tyrach",
+      "unit_size": 1,
+      "base_size": "120x92",
+      "cost": 175
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 20,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Fear (12\")",
+      "sr3": "Bloodthirsty",
+      "sr4": "Huge",
+      "sr5": "Heavy Impact (3)",
+      "sr6": "Armored (3)",
+      "sr7": "Battle Synergy (12\")",
+      "sr8": "Takes up a Commander and a Support slot"
+    },
+    "boosts": {
+      "boost1": "Swift",
+      "boost2": "Can fight with ALL close combat weapons"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 9,
+          "wname": "The Executioner",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 4
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 10,
+          "wname": "Maw and Claws",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (7+, 2)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 11,
+          "wname": "Monstrous Tail",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 5
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (7+)",
+          "wSR2": "Piercing (7+, 4)"
+        }
+      },
+      "wpn4": {
+        "wStats": {
+          "wid": 12,
+          "wname": "Terrifying Roar",
+          "wRNG": 12,
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Short"
+        }
+      }
+    }
+  },
+  "Lord_Emerath": {
+    "admin": {
+      "uid": 6,
+      "name": "Lord Emerath",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": "Emerath",
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 75
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 8,
+      "DEF": 4,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Impact (2)",
+      "sr2": "Armored (1)",
+      "sr3": "Bulky (3)",
+      "sr4": "Inspiring (12\")",
+      "sr5": "Character"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift, Impact (4)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 13,
+          "wname": "Voidshock Blaster - Blast",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 14,
+          "wname": "Voidshock Blaster - Beam",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 15,
+          "wname": "Vortex Talon",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Incarnate_Mystic": {
+    "admin": {
+      "uid": 7,
+      "name": "Incarnate Mystic",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Fear (12\")",
+      "sr3": "Character"
+    },
+    "boosts": {
+      "boost1": "Shockwave Staff improves Nova to Nova (4) and Stun",
+      "boost2": "Time Warp (Interact Single): Select a friendly Core unit within 12\" that has already activated but was not Boosted; return their token to the activation pool"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 16,
+          "wname": "Shockwave Staff",
+          "wRNG": 12,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Nova (2)",
+          "wSR3": "Blast"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 17,
+          "wname": "Rifting Talon",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Anti-Armor (7+)",
+          "wSR3": "Poisoned (7+)",
+          "wSR4": "Crushing (7+, 3)",
+          "wSR5": "Piercing (7+, 3)"
+        }
+      }
+    }
+  },
+  "Day_Avar_Incarnate_Mystic": {
+    "admin": {
+      "uid": 8,
+      "name": "Day 'Avar, Incarnate Mystic",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Day'Avar",
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Bulky (2)",
+      "sr3": "Fear (12\")",
+      "sr4": "Character"
+    },
+    "boosts": {
+      "boost1": "Open the Tesseract (Interact Double): All enemy units within 12\" must pass a Leadership test or become shaken",
+      "boost2": "Fear Me More (Interact Single): All friendly units within 12\" that are shaken immediately stop being shaken"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 18,
+          "wname": "Eye of Strahk (Ranged)",
+          "wRNG": 12,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Nova (2)",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 19,
+          "wname": "Eye of Strahk (Melee)",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun"
+        }
+      }
+    }
+  },
+  "Nikauron_Kell": {
+    "admin": {
+      "uid": 9,
+      "name": "Nikauron Kell",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Nikauron Kell",
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Bulky (2)",
+      "sr3": "Battle Synergy (12\")",
+      "sr4": "Inspiring (12\")",
+      "sr5": "Character"
+    },
+    "boosts": {
+      "boost1": "Redeploy; can make it a Double action to allow another friendly unit within 6\" to Redeploy as well",
+      "boost2": "Eruption of Tentacles (Interact Double): all enemy units within 6\" receive hits as if charged by a single model with Impact (6) or Heavy Impact (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 20,
+          "wname": "Orb of the Devout",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Reaping (8+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 21,
+          "wname": "Staff of Oblivion",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun"
+        }
+      }
+    }
+  },
+  "Posla_Previse": {
+    "admin": {
+      "uid": 10,
+      "name": "Posla Previse",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Posla Previse",
+      "unit_size": 1,
+      "base_size": 25,
+      "cost": 90
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Bulky (2)",
+      "sr3": "Fear (6\")",
+      "sr4": "Character",
+      "sr5": "Rival's Bane: While within 12\" of Ija Mar, Leadership worsens by 2 but Unholy Fury gains Reaping (8+, 2) and Piercing (8+, 3), and Movement improves by 2"
+    },
+    "boosts": {
+      "boost1": "Swift, Bloodthirsty",
+      "boost2": "Can use Strahk Unleashed ranged weapon; at the end of this activation this model suffers 4 wounds"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 22,
+          "wname": "Strahk Unleashed",
+          "wRNG": 12,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Boost Only",
+          "wSR2": "Short",
+          "wSR3": "Nova (4)",
+          "wSR4": "Blast",
+          "wSR5": "Anti-Armor (9+)",
+          "wSR6": "Piercing (9+, 3)",
+          "wSR7": "Poison (9+)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 23,
+          "wname": "Unholy Fury",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Ija_Mar": {
+    "admin": {
+      "uid": 11,
+      "name": "Ija Mar",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Ija Mar",
+      "unit_size": 1,
+      "base_size": 25,
+      "cost": 80
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Bulky (2)",
+      "sr3": "Fear (6\")",
+      "sr4": "Character",
+      "sr5": "Echoes of Guilt: While within 12\" of Posla Previse, Leadership worsens by 2 but all ranged weapons gain Nova (2) and Sniper"
+    },
+    "boosts": {
+      "boost1": "Interact (Single): Lantern of Regret (both profiles) gain Reaping (8+, 2) until end of activation",
+      "boost2": "Lantern of Regret (ranged) gains Nova (2) and Short"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 24,
+          "wname": "Lantern of Regret (Ranged)",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)",
+          "wSR3": "Blast",
+          "wSR4": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 25,
+          "wname": "Lantern of Regret (Melee)",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Poison (8+)",
+          "wSR2": "Blast",
+          "wSR3": "Stun"
+        }
+      }
+    }
+  },
+  "Lord_Gustavar": {
+    "admin": {
+      "uid": 12,
+      "name": "Lord Gustavar",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": "images/units/Lord_Gustavar_front.png",
+      "card_back": "images/units/Lord_Gustavar_back.png",
+      "unique": false,
+      "unique_name": "Gustavar",
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 65
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Fly",
+      "sr3": "Character",
+      "sr4": "(Aura) Friendly units with Fly gain +2\" to their Charge distances"
+    },
+    "boosts": {
+      "boost1": "Swift and Impact (3)",
+      "boost2": "Sword and Claw gain Reaping (8+, 3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 26,
+          "wname": "Sword and Claw",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Vice_Lord": {
+    "admin": {
+      "uid": 13,
+      "name": "Vice Lord",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Inspiring (6\")",
+      "sr3": "Character"
+    },
+    "boosts": {
+      "boost1": "Inspiring (12\") and Battle Synergy (12\")",
+      "boost2": "Swift, Corrupted Hammer gains Reaping (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 27,
+          "wname": "Corrupted Hammer",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Crushing (8+, 5)"
+        }
+      }
+    }
+  },
+  "Vice_Lord_with_Jet_Pack": {
+    "admin": {
+      "uid": 14,
+      "name": "Vice Lord with Jet Pack",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Character",
+      "sr3": "Fly",
+      "sr4": "(Aura) Dominiran Fanatics gain +2\" to moving, running, and charging distances when starting within 12\"",
+      "sr5": "(Aura) Dominiran Sentries gain Skirmisher while within 12\""
+    },
+    "boosts": {
+      "boost1": "Inspiring (12\") and Battle Synergy (12\")",
+      "boost2": "Swift, Reaper Sword gains Piercing (8+, 3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 28,
+          "wname": "Reclamation Pistol",
+          "wRNG": 4,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 29,
+          "wname": "Reaper Sword",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Delia_Graves": {
+    "admin": {
+      "uid": 15,
+      "name": "Delia Graves",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": "images/units/Delia_Graves_front.png",
+      "card_back": "images/units/Delia_Graves_back.png",
+      "unique": false,
+      "unique_name": "Delia Graves",
+      "unit_size": 1,
+      "base_size": "80x45",
+      "cost": 90
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 8,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Inspiring (6\")",
+      "sr3": "Armored (1)",
+      "sr4": "Heavy Impact (2)",
+      "sr5": "Character",
+      "sr6": "When this model Charges, Deathrider Lance gains +2 ATT, +1 DMG, and +2 AP until end of activation"
+    },
+    "boosts": {
+      "boost1": "Swift",
+      "boost2": "Deathrider Cannons gain Assault"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 30,
+          "wname": "Deathrider Lance",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {}
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 31,
+          "wname": "Deathrider Cannons",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 2)",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Valkyrs": {
+    "admin": {
+      "uid": 16,
+      "name": "Valkyrs",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": "images/units/Valkyrs_front.png",
+      "card_back": "images/units/Valkyrs_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 6,
+      "base_size": 32,
+      "cost": 75
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Option - Harbinger (Banner): Unit gains Leadership 5+ and Fear (6\")",
+      "sr3": "Option - Champion: Unit gains Swift"
+    },
+    "boosts": {
+      "boost1": "Valkyr Swords and Glaives gain Piercing (6+, 3)",
+      "boost2": "Shock Assault, Pistols gain Stun"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 32,
+          "wname": "Pistols",
+          "wRNG": 4,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 33,
+          "wname": "Valkyr Swords and Glaives",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (6+, 2)"
+        }
+      }
+    }
+  },
+  "Valkyrs (7)": {
+    "admin": {
+      "uid": 16.5,
+      "name": "Valkyrs",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": "images/units/Valkyrs_front.png",
+      "card_back": "images/units/Valkyrs_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": "7",
+      "base_size": 32,
+      "cost": 90
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Option - Harbinger (Banner): Unit gains Leadership 5+ and Fear (6\")",
+      "sr3": "Option - Champion: Unit gains Swift"
+    },
+    "boosts": {
+      "boost1": "Valkyr Swords and Glaives gain Piercing (6+, 3)",
+      "boost2": "Shock Assault, Pistols gain Stun"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 32,
+          "wname": "Pistols",
+          "wRNG": 4,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 33,
+          "wname": "Valkyr Swords and Glaives",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (6+, 2)"
+        }
+      }
+    }
+  },
+  "Enforcers": {
+    "admin": {
+      "uid": 17,
+      "name": "Enforcers",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": "6-7",
+      "base_size": 32,
+      "cost": 75
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Option - Harbinger (Banner): Unit gains Leadership 5+ and Fear (6\")",
+      "sr3": "Option - Kingslayer (Champion): Gun Butts gain AP 1 and Reaping (8+, 2)"
+    },
+    "boosts": {
+      "boost1": "Disintegrators gain Piercing (6+, 3) and Point Blank (1)",
+      "boost2": "Disintegrators gain Sniper"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 34,
+          "wname": "Disintegrators",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (6+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 35,
+          "wname": "Gun Butts",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Enforcers (7)": {
+    "admin": {
+      "uid": 17.5,
+      "name": "Enforcers",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 7,
+      "base_size": 32,
+      "cost": 90
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Option - Harbinger (Banner): Unit gains Leadership 5+ and Fear (6\")",
+      "sr3": "Option - Kingslayer (Champion): Gun Butts gain AP 1 and Reaping (8+, 2)"
+    },
+    "boosts": {
+      "boost1": "Disintegrators gain Piercing (6+, 3) and Point Blank (1)",
+      "boost2": "Disintegrators gain Sniper"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 34,
+          "wname": "Disintegrators",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (6+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 35,
+          "wname": "Gun Butts",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Dominiran_Sentries": {
+    "admin": {
+      "uid": 18,
+      "name": "Dominiran Sentries",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 10,
+      "base_size": 25,
+      "cost": 40
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 1,
+      "DEF": 7,
+      "LD": 6
+    },
+    "special_rules": {},
+    "boosts": {
+      "boost1": "Call Reinforcements: Before taking any actions, return up to 4 slain models to this unit",
+      "boost2": "Scrap Guns gain Reaping (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 36,
+          "wname": "Scrap Guns",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 37,
+          "wname": "CC Weapons",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Dominiran_Fanatics": {
+    "admin": {
+      "uid": 19,
+      "name": "Dominiran Fanatics",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 10,
+      "base_size": 25,
+      "cost": 50
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 1,
+      "DEF": 7,
+      "LD": 6
+    },
+    "special_rules": {},
+    "boosts": {
+      "boost1": "Call Reinforcements: Before taking any actions, return up to 4 slain models to this unit",
+      "boost2": "Swift"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 38,
+          "wname": "Grenades and Pistols",
+          "wRNG": 4,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 39,
+          "wname": "Improvised Melee Weapons",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (9+, 2)",
+          "wSR2": "Piercing (9+, 2)"
+        }
+      }
+    }
+  },
+  "Asalian_Executioners": {
+    "admin": {
+      "uid": 20,
+      "name": "Asalian Executioners",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": "images/units/Executioners_front.png",
+      "card_back": "images/units/Executioners_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 6,
+      "base_size": 32,
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Parry (1)",
+      "sr2": "Bulky (2)",
+      "sr3": "Option - Flag Bearer (Banner): Unit gains Leadership 5+ and Fear (6\")",
+      "sr4": "Option - Butcher (Champion): Swift"
+    },
+    "boosts": {
+      "boost1": "Impact (1)",
+      "boost2": "Bloodthirsty"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 40,
+          "wname": "Corrupted Weapons",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 2,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (6+, 2)"
+        }
+      }
+    }
+  },
+  "Asalian_Executioners (7)": {
+    "admin": {
+      "uid": 20.5,
+      "name": "Asalian Executioners",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": "images/units/Executioners_front.png",
+      "card_back": "images/units/Executioners_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 7,
+      "base_size": 32,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Parry (1)",
+      "sr2": "Bulky (2)",
+      "sr3": "Option - Flag Bearer (Banner): Unit gains Leadership 5+ and Fear (6\")",
+      "sr4": "Option - Butcher (Champion): Swift"
+    },
+    "boosts": {
+      "boost1": "Impact (1)",
+      "boost2": "Bloodthirsty"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 40,
+          "wname": "Corrupted Weapons",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 2,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (6+, 2)"
+        }
+      }
+    }
+  },
+  "Sorrowspites": {
+    "admin": {
+      "uid": 21,
+      "name": "Sorrowspites",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 7,
+      "base_size": 32,
+      "cost": 60
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Fear (6\")",
+      "sr3": "Shock Assault"
+    },
+    "boosts": {
+      "boost1": "Swift and Impact (1)",
+      "boost2": "Mutations gain Reaping (6+, 3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 41,
+          "wname": "Mutations",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (6+, 2)",
+          "wSR2": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 42,
+          "wname": "Terrifying Shriek",
+          "wRNG": 4,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Stun",
+          "wSR3": "Assault"
+        }
+      }
+    }
+  },
+  "Ascended_Purifiers": {
+    "admin": {
+      "uid": 22,
+      "name": "Ascended Purifiers",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 6,
+      "base_size": 32,
+      "cost": 110
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Skirmisher"
+    },
+    "boosts": {
+      "boost1": "Purifiers gain Sniper, Ignores Cover, and Precision",
+      "boost2": "Purifiers gain Point Blank (1) and Reaping (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 43,
+          "wname": "Purifiers",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 44,
+          "wname": "Gun Butts",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Dreadterror": {
+    "admin": {
+      "uid": 23,
+      "name": "Dreadterror",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 65,
+      "cost": 100
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 8,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Armored (1)",
+      "sr3": "Heavy Impact (1)",
+      "sr4": "Fear (6\")",
+      "sr5": "Fly"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift and either Heavy Impact (3) or replace Heavy Impact (1) with Crushing Impact"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 45,
+          "wname": "Rending Devastators",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Piercing (8+, 3)",
+          "wSR3": "Stun"
+        }
+      }
+    }
+  },
+  "Asalian_Banshees": {
+    "admin": {
+      "uid": 24,
+      "name": "Asalian Banshees",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": "images/units/Asalian_Banshees_front.png",
+      "card_back": "images/units/Asalian_Banshees_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 32,
+      "cost": 110
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Advanced Deployment",
+      "sr3": "Impact (1)",
+      "sr4": "Fly",
+      "sr5": "Parry (1)"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift and Impact (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 46,
+          "wname": "Veil Blaster",
+          "wRNG": 4,
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault",
+          "wSR2": "Reaping (9+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 47,
+          "wname": "Veil Blade",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 3)"
+        }
+      }
+    }
+  },
+  "Asalian_Wraiths": {
+    "admin": {
+      "uid": 25,
+      "name": "Asalian Wraiths",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": "images/units/Wraiths_front.png",
+      "card_back": "images/units/Wraiths_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 32,
+      "cost": 110
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Advanced Deployment",
+      "sr3": "Impact (1)",
+      "sr4": "Fly",
+      "sr5": "Fear (6\")"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift and Impact (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 48,
+          "wname": "Veil Claws",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 3)",
+          "wSR2": "Piercing (8+, 3)",
+          "wSR3": "Stun"
+        }
+      }
+    }
+  },
+  "Asalian_Deathriders": {
+    "admin": {
+      "uid": 26,
+      "name": "Asalian Deathriders",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": "images/units/Asalian_Deathriders_front.png",
+      "card_back": "images/units/Asalian_Deathriders_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 4,
+      "base_size": "80x45",
+      "cost": 130
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 4,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Armored (1)",
+      "sr3": "Heavy Impact (1)"
+    },
+    "boosts": {
+      "boost1": "Multi-fire (2)",
+      "boost2": "Deathrider Cannons gain Assault"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 49,
+          "wname": "Deathrider Sword",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {}
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 50,
+          "wname": "Deathrider Stubber",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Point Blank (1)",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 51,
+          "wname": "Deathrider Cannons",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 2)",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Asalian_Vatra": {
+    "admin": {
+      "uid": 27,
+      "name": "Asalian Vatra",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 40,
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Armored (1)",
+      "sr3": "Bulky (3)"
+    },
+    "boosts": {
+      "boost1": "Tank Slayers gain Sniper",
+      "boost2": "Tank Slayers gain Reaping (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 52,
+          "wname": "Flame Gauntlets (Unit Leader only)",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Stun",
+          "wSR3": "Short"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 53,
+          "wname": "Tank Slayers (non-leader)",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 4)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 54,
+          "wname": "Gun Butts",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Asalian_Goreti": {
+    "admin": {
+      "uid": 28,
+      "name": "Asalian Goreti",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 40,
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Armored (1)",
+      "sr3": "Bulky (3)"
+    },
+    "boosts": {
+      "boost1": "Abaters gain Reaping (7+, 2) and Piercing (7+, 2)",
+      "boost2": "Abaters gain Nova (2) and Short"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 55,
+          "wname": "Flame Gauntlets (Unit Leader only)",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Stun",
+          "wSR3": "Short"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 56,
+          "wname": "Abaters (non-leader)",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Point Blank (1)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 57,
+          "wname": "Gun Butts",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Asalian_Death_Chasers": {
+    "admin": {
+      "uid": 29,
+      "name": "Asalian Death Chasers",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 40,
+      "cost": 120
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 3,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Armored (1)",
+      "sr3": "Bulky (3)",
+      "sr4": "Skirmisher"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift, replace Impact (1) with Heavy Impact (1)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 58,
+          "wname": "Doomsayer Blaster",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Point Blank (1)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 59,
+          "wname": "Soulreaver Gauntlet",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Pulverizers": {
+    "admin": {
+      "uid": 30,
+      "name": "Pulverizers",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 40,
+      "cost": 110
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 3,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Heavy Impact (1)",
+      "sr2": "Armored (2)",
+      "sr3": "Parry (1)",
+      "sr4": "Bulky (3)"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift, Fear (6\")"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 60,
+          "wname": "Ruinbringer Hammer",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Crushing (8+, 4)"
+        }
+      }
+    }
+  },
+  "Eviscerators": {
+    "admin": {
+      "uid": 31,
+      "name": "Eviscerators",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 40,
+      "cost": 110
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 3,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Armored (1)",
+      "sr3": "Parry (1)",
+      "sr4": "Bulky (3)"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift, Grimtalons gain Reaping (6+, 3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 61,
+          "wname": "Grimtalons",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (6+, 2)"
+        }
+      }
+    }
+  },
+  "The_Veil_Bound": {
+    "admin": {
+      "uid": 32,
+      "name": "The Veil Bound",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 40,
+      "cost": 130
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 3,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Armored (1)",
+      "sr3": "Bulky (3)"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Gain three actions instead of two (or one single and one double action)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 62,
+          "wname": "Dread Blaster",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Piercing (8+, 3)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 63,
+          "wname": "Veil Bound Axe",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 4)"
+        }
+      }
+    }
+  },
+  "Ravagers": {
+    "admin": {
+      "uid": 33,
+      "name": "Ravagers",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 4,
+      "base_size": 40,
+      "cost": 125
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 3,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Armored (1)",
+      "sr3": "Bulky (3)"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Cannot move, and Twin Ravager Cannons gain Nova (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 64,
+          "wname": "Twin Ravager Cannons",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 6,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 65,
+          "wname": "Gun Butts",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Oathborne": {
+    "admin": {
+      "uid": 34,
+      "name": "Oathborne",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": "images/units/Oathborne_2_front.png",
+      "card_back": "images/units/Oathborne_2_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 60,
+      "cost": 135
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 12,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Heavy Impact (2)",
+      "sr3": "Armored (2)",
+      "sr4": "Degrades",
+      "sr5": "Explodes (3\")",
+      "sr6": "Choose one melee weapon: Ironcoil Whips or Dread Cleaver",
+      "sr7": "Choose one ranged weapon: Siegebreaker or Cyclonic Gatling Gun"
+    },
+    "boosts": {
+      "boost1": "Swift and Bloodthirsty",
+      "boost2": "Cyclonic Gatling Gun gains Nova (2)",
+      "boost3": "Siegebreaker gains Sniper and Precision"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 66,
+          "wname": "Ironcoil Whips",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 3)",
+          "wSR2": "Poisoned (8+)",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 67,
+          "wname": "Dread Cleaver",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 68,
+          "wname": "Siegebreaker",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)"
+        }
+      },
+      "wpn4": {
+        "wStats": {
+          "wid": 69,
+          "wname": "Cyclonic Gatling Gun",
+          "wRNG": 8,
+          "wATT": 5,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Point Blank (5)"
+        }
+      }
+    }
+  },
+  "Apocalypse_Twin_Judgement_Cannon": {
+    "admin": {
+      "uid": 35,
+      "name": "Apocalypse (Twin Judgement Cannon)",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": "images/units/VTASV_Apocalypse_front.png",
+      "card_back": "images/units/VTASV_Apocalypse_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "145x130",
+      "cost": 170
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 20,
+      "DEF": 4,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Huge",
+      "sr2": "Heavy Impact (3)",
+      "sr3": "Armored (3)",
+      "sr4": "Explodes (6\")",
+      "sr5": "Degrades"
+    },
+    "boosts": {
+      "boost1": "Multi-fire (2), but cannot fire Twin Judgement",
+      "boost2": "Swift, Heavy Impact (5)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 70,
+          "wname": "Twin Judgement",
+          "wRNG": 12,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 5
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (7+)",
+          "wSR2": "Piercing (7+, 4)",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 71,
+          "wname": "Infernal Flamethrowers",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Stun",
+          "wSR4": "Close Volley"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 72,
+          "wname": "Stubber Cannons",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 2)",
+          "wSR2": "Close Volley"
+        }
+      }
+    }
+  },
+  "Apocalypse_Skyfall_Battery": {
+    "admin": {
+      "uid": 36,
+      "name": "Apocalypse (Skyfall Battery)",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": "images/units/VTASV_Skyfall_front.png",
+      "card_back": "images/units/VTASV_Skyfall_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "145x130",
+      "cost": 165
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 20,
+      "DEF": 4,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Huge",
+      "sr2": "Heavy Impact (3)",
+      "sr3": "Armored (3)",
+      "sr4": "Explodes (6\")",
+      "sr5": "Degrades"
+    },
+    "boosts": {
+      "boost1": "Multi-fire (2), but cannot fire Skyfall Battery",
+      "boost2": "Skyfall Battery gains Nova (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 73,
+          "wname": "Skyfall Battery",
+          "wRNG": 12,
+          "wATT": 4,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Blast",
+          "wSR3": "Volley Fire"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 74,
+          "wname": "Infernal Flamethrowers",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Stun",
+          "wSR4": "Close Volley"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 75,
+          "wname": "Stubber Cannons",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 2)",
+          "wSR2": "Close Volley"
+        }
+      }
+    }
+  },
+  "VTAT_Carnage": {
+    "admin": {
+      "uid": 37,
+      "name": "VTAT Carnage",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "115x100",
+      "cost": 125
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 15,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Huge",
+      "sr2": "Heavy Impact (3)",
+      "sr3": "Armored (3)",
+      "sr4": "Explodes (3\")",
+      "sr5": "Transport (18)",
+      "sr6": "Choose one: VTAT Missile Launcher or Twin Mounted Disintegrators"
+    },
+    "boosts": {
+      "boost1": "Swift, Replace Heavy Impact (3) with Crushing Impact",
+      "boost2": "Can disembark units as a free action"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 76,
+          "wname": "VTAT Missile Launcher",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Stun",
+          "wSR3": "Close Volley"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 77,
+          "wname": "Twin Mounted Disintegrators",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Point Blank (2)",
+          "wSR2": "Reaping (8+, 2)",
+          "wSR3": "Close Volley"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 78,
+          "wname": "Stubber Cannons",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 2)",
+          "wSR2": "Close Volley"
+        }
+      }
+    }
+  },
+  "VTAT_Blockade_Breaker": {
+    "admin": {
+      "uid": 38,
+      "name": "VTAT Blockade Breaker",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "115x100",
+      "cost": 130
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 15,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Huge",
+      "sr2": "Heavy Impact (3)",
+      "sr3": "Armored (3)",
+      "sr4": "Explodes (3\")",
+      "sr5": "Transport (14)",
+      "sr6": "Multi-fire (2)"
+    },
+    "boosts": {
+      "boost1": "Swift, Can Bulldoze as a Single Action",
+      "boost2": "Can disembark units as a free action"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 79,
+          "wname": "Breaker Cannons",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Stun",
+          "wSR3": "Close Volley"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 80,
+          "wname": "Stubber Cannons",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 2)",
+          "wSR2": "Close Volley"
+        }
+      }
+    }
+  },
+  "Abominations": {
+    "admin": {
+      "uid": 39,
+      "name": "Abominations",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 3,
+      "base_size": 50,
+      "cost": 135
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 4,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (2)",
+      "sr2": "Armored (1)",
+      "sr3": "Leaderless",
+      "sr4": "Bulky (3)"
+    },
+    "boosts": {
+      "boost1": "Multi Fire (2)",
+      "boost2": "All ranged weapons gain Short and Nova (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 81,
+          "wname": "Fleshrend Arsenal",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 5,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 82,
+          "wname": "Siegebreakers",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 5,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 4)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 83,
+          "wname": "Morphclaws",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 4)",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Asalian_Devourer": {
+    "admin": {
+      "uid": 40,
+      "name": "Asalian Devourer",
+      "faction": "Veil Touched",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "120x92",
+      "cost": 145
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 15,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Fear (12\")",
+      "sr2": "Huge",
+      "sr3": "Heavy Impact (3)",
+      "sr4": "Armored (3)",
+      "sr5": "Choose one: Devourer Lash Tendrils and Maws and Claws OR Devourer Plasma Cannon and Maws and Claws"
+    },
+    "boosts": {
+      "boost1": "Swift, Can attack with two Melee weapons",
+      "boost2": "Heavy Impact (3) is replaced with Crushing Impact"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 84,
+          "wname": "Maw and Claws",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (7+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 85,
+          "wname": "Lash Tendrils (Melee)",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (7+)",
+          "wSR2": "Piercing (7+, 3)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 86,
+          "wname": "Lash Tendrils (Ranged)",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (7+)",
+          "wSR2": "Piercing (7+, 3)",
+          "wSR3": "Short",
+          "wSR4": "Assault"
+        }
+      },
+      "wpn4": {
+        "wStats": {
+          "wid": 87,
+          "wname": "Plasma Cannon",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Anti-Armor (7+)",
+          "wSR3": "Piercing (7+, 3)",
+          "wSR4": "Ignores Cover",
+          "wSR5": "Blast"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1671 @@
+{
+  "Telrathi_Militia_Lieutenant": {
+    "admin": {
+      "uid": 1,
+      "name": "Telrathi Militia Lieutenant",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 42,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 8,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Heal (Support, 5)",
+      "sr2": "Bulky (2)",
+      "sr3": "Character"
+    },
+    "boosts": {
+      "boost1": "Quad Guns - Rapid Fire gain Nova (2); Quad Guns - Single Shot gain Sniper",
+      "boost2": "Heal (Telrathi Steel Core or Elite, 5)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 1,
+          "wname": "Quad Guns - Single Shot",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)",
+          "wSR3": "Crushing (8+, 4)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 2,
+          "wname": "Quad Guns - Rapid Fire",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 3,
+          "wname": "Grabber",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Crushing (8+, 5)",
+          "wSR2": "Stun"
+        }
+      }
+    }
+  },
+  "Spectral_Land_Skimmer_Marshal": {
+    "admin": {
+      "uid": 2,
+      "name": "Spectral Land Skimmer Marshal",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 42,
+      "cost": 80
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 8,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Fly",
+      "sr2": "Bulky (3)",
+      "sr3": "Impact (3)",
+      "sr4": "Character",
+      "sr5": "(Aura) When this model activates, the controlling player can choose a friendly Core unit within 12\"; that unit gains Skirmisher until end of round"
+    },
+    "boosts": {
+      "boost1": "Inspiring (12\"), Rally (12\"), Swift",
+      "boost2": "When granting Skirmisher, this model can pick an Elite unit instead of a Core unit"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 4,
+          "wname": "Skimmer Cannons",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Point Blank (3)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 5,
+          "wname": "Concussive Grenade Launcher",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault",
+          "wSR2": "Blast",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 6,
+          "wname": "CC Weapons",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Bladeburn_Captain": {
+    "admin": {
+      "uid": 3,
+      "name": "Bladeburn Captain",
+      "faction": "Steel Specters",
+      "sub_faction": "Bladeburn",
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 105
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 6,
+      "DEF": 6,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Stealth (12\")",
+      "sr2": "Scout (6\")",
+      "sr3": "Bulky (2)",
+      "sr4": "Advanced Deployment",
+      "sr5": "Character"
+    },
+    "boosts": {
+      "boost1": "Sniper Rifle gains Precision and Crushing (8+, 4)",
+      "boost2": "Redeploy (Free); can only be used once per activation"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 7,
+          "wname": "Sniper Rifle",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Sniper",
+          "wSR2": "Stun",
+          "wSR3": "Piercing (8+, 3)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 8,
+          "wname": "Combat Blade",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Eclipse_Enforcer": {
+    "admin": {
+      "uid": 4,
+      "name": "Eclipse Enforcer",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 80
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 8,
+      "DEF": 4,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Fly",
+      "sr2": "Battle Synergy (12\")",
+      "sr3": "Impact (2)",
+      "sr4": "Bulky (2)",
+      "sr5": "Advanced Deployment",
+      "sr6": "Scout (8\")",
+      "sr7": "Character",
+      "sr8": "(Aura) After deployment, before the first round, the controlling player can choose a friendly Core unit; that unit gains Scout (8\") until end of round; works even if this model is not deployed"
+    },
+    "boosts": {
+      "boost1": "Impact (4), Swift",
+      "boost2": "Redeploy"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 9,
+          "wname": "Assault Pistol",
+          "wRNG": 4,
+          "wATT": 2,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 10,
+          "wname": "Sword",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Spectral_Blade": {
+    "admin": {
+      "uid": 5,
+      "name": "Spectral Blade",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 6,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Stealth (6\")",
+      "sr2": "Fear (6\")",
+      "sr3": "Advanced Deployment",
+      "sr4": "Scout (8\")",
+      "sr5": "Bulky (2)",
+      "sr6": "Redeploy",
+      "sr7": "Character"
+    },
+    "boosts": {
+      "boost1": "Redeploy (Free); can be used even if this model is not set up on the table",
+      "boost2": "When targeting a Character not Large or Huge, Assassin Blades gains Crushing (8+, 5) and Piercing (8+, 5)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 11,
+          "wname": "Assassin Blades",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Stun"
+        }
+      }
+    }
+  },
+  "Telrathi_Field_Officer": {
+    "admin": {
+      "uid": 6,
+      "name": "Telrathi Field Officer",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 8,
+      "DEF": 5,
+      "LD": 3
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Character",
+      "sr3": "Inspiring (12\")",
+      "sr4": "Battle Synergy (12\")",
+      "sr5": "Target Coordination (12\")"
+    },
+    "boosts": {
+      "boost1": "Can use Modified Drone: High Impact Payload, but only once this activation; can make a single Shoot (Free) action",
+      "boost2": "Swift; choose one friendly unit within 12\" not engaged with enemies: that unit can immediately make a Move (Free) action"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 12,
+          "wname": "Big Sword",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Piercing (8+, 3)",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 13,
+          "wname": "Modified Drone",
+          "wRNG": 12,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Ignores Cover"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 14,
+          "wname": "Modified Drone: High Impact Payload",
+          "wRNG": 12,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 3,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Anti-Armor (8+)",
+          "wSR3": "Boost Only"
+        }
+      }
+    }
+  },
+  "Telrathi_Lieutenant": {
+    "admin": {
+      "uid": 7,
+      "name": "Telrathi Lieutenant",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 8,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Bulky (2)",
+      "sr2": "Character",
+      "sr3": "Stealth (12\")",
+      "sr4": "Armored (1)",
+      "sr5": "Parry (2)",
+      "sr6": "Battle Synergy (12\")",
+      "sr7": "(Aura) When this model activates, choose a friendly Core unit within 12\"; that unit gains Stealth (12\") until end of round"
+    },
+    "boosts": {
+      "boost1": "(Aura) While within 12\" of this model, all friendly Core and Elite units improve their Move characteristic by 2",
+      "boost2": "Swift; Impact (3) or Heavy Impact (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 15,
+          "wname": "Sword",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 16,
+          "wname": "Pistol",
+          "wRNG": 4,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault"
+        }
+      }
+    }
+  },
+  "Ibex_Mobile_Patrol_Drones": {
+    "admin": {
+      "uid": 8,
+      "name": "Ibex Mobile Patrol Drones",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 10,
+      "base_size": 25,
+      "cost": 50
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 1,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Fly",
+      "sr2": "Scout (8\")",
+      "sr3": "Stalwart",
+      "sr4": "Drone Controller must be the unit leader",
+      "sr5": "Telrathi Engineer: Heal (Telrathi Drones, 2)"
+    },
+    "boosts": {
+      "boost1": "Target Coordination (12\"), Target Lock (12\")",
+      "boost2": "Redeploy"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 17,
+          "wname": "Suppressors",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (9+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 18,
+          "wname": "CC Weapons",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Telrathi_Enforcer_Droids": {
+    "admin": {
+      "uid": 9,
+      "name": "Telrathi Enforcer Droids",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 10,
+      "base_size": 25,
+      "cost": 60
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 1,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Heal (Self, 2)"
+    },
+    "boosts": {
+      "boost1": "Heal (Self, 5)",
+      "boost2": "Swift"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 19,
+          "wname": "Telrathi SD-HO6 Shotguns",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Point Blank (1)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 20,
+          "wname": "CC Weapons",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Spectral_Soldiers": {
+    "admin": {
+      "uid": 10,
+      "name": "Spectral Soldiers",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 10,
+      "base_size": 25,
+      "cost": 55
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 1,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Skirmisher"
+    },
+    "boosts": {
+      "boost1": "Bows: Anti-Armor Tip Arrows gain Sniper, Piercing (8+, 3), and Anti-Armor (8+)",
+      "boost2": "Bows: Explosive Tip Arrows gain Reaping (9+, 3) and Piercing (9+, 1)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 21,
+          "wname": "Bows: Anti-Armor Tip",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (9+)",
+          "wSR2": "Piercing (9+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 22,
+          "wname": "Bows: Explosive Tip",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (9+, 2)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 23,
+          "wname": "CC Weapons",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Bladeburn_Raiders": {
+    "admin": {
+      "uid": 11,
+      "name": "Bladeburn Raiders",
+      "faction": "Steel Specters",
+      "sub_faction": "Bladeburn",
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 10,
+      "base_size": 25,
+      "cost": 60
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 1,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Parry (1)",
+      "sr2": "Stealth (18\")"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift; Assault Pistols gain AP 1"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 24,
+          "wname": "Assault Pistol",
+          "wRNG": 4,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault",
+          "wSR2": "Close Volley"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 25,
+          "wname": "Assassin Blades",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Spectral_Land_Skimmers": {
+    "admin": {
+      "uid": 12,
+      "name": "Spectral Land Skimmers",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 32,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Fly",
+      "sr2": "Bulky (3)",
+      "sr3": "Impact (1)"
+    },
+    "boosts": {
+      "boost1": "Skirmisher; Multi-Fire (2)",
+      "boost2": "Replace Impact (1) with Heavy Impact (1); Swift"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 26,
+          "wname": "Skimmer Cannons",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 27,
+          "wname": "Spectral Pistols",
+          "wRNG": 4,
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 28,
+          "wname": "CC Weapons",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Armac_Instigator_Mechs": {
+    "admin": {
+      "uid": 13,
+      "name": "Armac Instigator Mechs",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 2,
+      "base_size": 50,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 5,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Armored (1)",
+      "sr2": "Heavy Impact (1)",
+      "sr3": "Leaderless",
+      "sr4": "Close Formation"
+    },
+    "boosts": {
+      "boost1": "Swift; Servo Fists gain Piercing (8+, 5) and Anti-Armor (8+)",
+      "boost2": "Swift; Servo Fists gain Reaping (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 29,
+          "wname": "Crowd Control",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Blast"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 30,
+          "wname": "Anti Armor Cannon",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 31,
+          "wname": "Servo Fists",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun"
+        }
+      }
+    }
+  },
+  "MAR_Turrets": {
+    "admin": {
+      "uid": 14,
+      "name": "MAR Turrets",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 32,
+      "cost": 100
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Shield Generator: (Aura) Improve Defense of all friendly units by 1 against ranged attacks within 12\"",
+      "sr2": "Shield Generator: (Aura) Worsen ACC of all enemy units by 1 when targeting friendly units with ranged attacks within 12\"",
+      "sr3": "Telrathi Engineer: Heal (MAR Turrets, 2)"
+    },
+    "boosts": {
+      "boost1": "Once per activation, the Telrathi Engineer can do the Interact action as a Free action when using the Heal ability",
+      "boost2": "All ranged weapons gain the Close Volley special rule"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 32,
+          "wname": "(Small Turrets) Anti-Personnel Weapons",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 3)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 33,
+          "wname": "(Large Turret) Anti-Personnel Weapons",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 3)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 34,
+          "wname": "(Engineer Only) Harness Arms",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun"
+        }
+      }
+    }
+  },
+  "Spectral_Engagement_Droids": {
+    "admin": {
+      "uid": 15,
+      "name": "Spectral Engagement Droids",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 3,
+      "base_size": 32,
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 3,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Armored (1)",
+      "sr2": "Parry (1)",
+      "sr3": "Impact (2)"
+    },
+    "boosts": {
+      "boost1": "Swift; Swords and Blades gain Reaping (8+, 3)",
+      "boost2": "Change Impact (2) to Heavy Impact (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 35,
+          "wname": "Swords and Blades",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Spectral_Assassins": {
+    "admin": {
+      "uid": 16,
+      "name": "Spectral Assassins",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 32,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 2,
+      "DEF": 6,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Stealth (12\")",
+      "sr2": "Fear (6\")",
+      "sr3": "Advanced Deployment",
+      "sr4": "Scout (8\")"
+    },
+    "boosts": {
+      "boost1": "Redeploy (Free); can be used if this model is not set up on the table",
+      "boost2": "When targeting a Character not Large or Huge, Assassin Blades gains Crushing (8+, 3) and Piercing (8+, 3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 36,
+          "wname": "Blades",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Stun"
+        }
+      }
+    }
+  },
+  "Telrathi_Veterans": {
+    "admin": {
+      "uid": 17,
+      "name": "Telrathi Veterans",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 32,
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Armored (1)",
+      "sr3": "Fear (6\")",
+      "sr4": "Bulky (2)"
+    },
+    "boosts": {
+      "boost1": "Rifle gains Sniper and Stun",
+      "boost2": "Rifle gains Assault; Impact (2); CC Weapons gain Reaping (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 37,
+          "wname": "Rifle",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Point Blank (1)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 38,
+          "wname": "CC Weapons",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Telrathi_Guardians": {
+    "admin": {
+      "uid": 18,
+      "name": "Telrathi Guardians",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 32,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Armored (1)",
+      "sr3": "Parry (2)",
+      "sr4": "Fear (6\")",
+      "sr5": "Shock Assault",
+      "sr6": "Bulky (2)"
+    },
+    "boosts": {
+      "boost1": "Swift; After completing a Charge move and resolving Impact hits, all units charged must pass a Leadership test or become shaken",
+      "boost2": "This unit can perform the Bulldoze (Double) action as if it were Large"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 39,
+          "wname": "Halberds",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)",
+          "wSR3": "Stun"
+        }
+      }
+    }
+  },
+  "Spectral_Banshees": {
+    "admin": {
+      "uid": 19,
+      "name": "Spectral Banshees",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 5,
+      "base_size": 32,
+      "cost": 80
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Impact (1)",
+      "sr2": "Fly",
+      "sr3": "Advanced Deployment",
+      "sr4": "Bulky (2)"
+    },
+    "boosts": {
+      "boost1": "Redeploy; Wrist Cannons gain Nova (2)",
+      "boost2": "Swift; Wrist Cannons gain Stun"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 40,
+          "wname": "Wrist Cannons",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 3)",
+          "wSR2": "Assault"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 41,
+          "wname": "CC Weapons",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Bombardier_Beetle": {
+    "admin": {
+      "uid": 20,
+      "name": "Bombardier Beetle",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "none",
+      "cost": 110
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 10,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Fly",
+      "sr3": "Armored (1)",
+      "sr4": "Advanced Deployment",
+      "sr5": "Explodes (3\")"
+    },
+    "boosts": {
+      "boost1": "All ranged weapons gain Nova (2) and Sniper",
+      "boost2": "Redeploy"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 42,
+          "wname": "Bombardment Missile Barrage",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Stun",
+          "wSR3": "Ignores Cover",
+          "wSR4": "Volley Fire",
+          "wSR5": "Close Volley"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 43,
+          "wname": "Focused Missiles",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 4)"
+        }
+      }
+    }
+  },
+  "Rewired_Mining_Skiff": {
+    "admin": {
+      "uid": 21,
+      "name": "Rewired Mining Skiff",
+      "faction": "Steel Specters",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "75x117",
+      "cost": 135
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 10,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Fly",
+      "sr3": "Armored (1)",
+      "sr4": "Advanced Deployment",
+      "sr5": "Heavy Impact (2)",
+      "sr6": "Explodes (3\")"
+    },
+    "boosts": {
+      "boost1": "Mining Laser (Ranged) gains Assault",
+      "boost2": "Explodes (6\"); As an Interact (Single) this unit can self-destruct; count Wounds as 15 and replace Large with Huge for Explodes rule; this unit cannot make any attacks this activation"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 44,
+          "wname": "Mining Laser (Ranged)",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 5,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 4)",
+          "wSR3": "Reaping (8+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 45,
+          "wname": "Mining Laser (Melee)",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 5,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 4)",
+          "wSR3": "Crushing (8+, 5)"
+        }
+      }
+    }
+  },
+  "RS01_Prosecutor": {
+    "admin": {
+      "uid": 22,
+      "name": "RS-01 \"Prosecutor\"",
+      "faction": "Steel Specters",
+      "sub_faction": "Telrathi",
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 70,
+      "cost": 130
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 12,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Armored (1)",
+      "sr3": "Impact (3)",
+      "sr4": "Explodes (3\")",
+      "sr5": "Worsen the Leadership of any units hit by Twin Repulsor Cannons by 2 until end of this unit's activation",
+      "sr6": "Interact (Single): This unit counts as always being in Heavy Cover until end of round"
+    },
+    "boosts": {
+      "boost1": "Twin Repulsor Cannons gain Nova (2)",
+      "boost2": "Swift; Replace Impact (3) with Heavy Impact (3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 46,
+          "wname": "Twin Repulsor Cannons",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 5,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 4)",
+          "wSR3": "Stun",
+          "wSR4": "Close Volley"
+        }
+      }
+    }
+  },
+  "Spectral_Lift_Loader": {
+    "admin": {
+      "uid": 23,
+      "name": "Spectral Lift Loader",
+      "faction": "Steel Specters",
+      "sub_faction": "Spectral",
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 70,
+      "cost": 140
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 12,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Armored (2)",
+      "sr3": "Heavy Impact (2)",
+      "sr4": "Explodes (3\")"
+    },
+    "boosts": {
+      "boost1": "Swift; Improve ACC of all weapons by 1",
+      "boost2": "Swift; This counts as Huge for the purposes of Bulldozing"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 47,
+          "wname": "Loaders - Piercing",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 5,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 4)",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 48,
+          "wname": "Loaders - Wide Sweep",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Bladeburn_Raidship": {
+    "admin": {
+      "uid": 24,
+      "name": "Bladeburn Raidship",
+      "faction": "Steel Specters",
+      "sub_faction": "Bladeburn",
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "none",
+      "cost": 115
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 10,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Armored (1)",
+      "sr3": "Impact (2)",
+      "sr4": "Transport (12)",
+      "sr5": "Explodes (3\")"
+    },
+    "boosts": {
+      "boost1": "Swift; Can Disembark as a Free Action once this activation",
+      "boost2": "Replace Impact (2) with Heavy Impact (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 49,
+          "wname": "Assault Cannons",
+          "wRNG": 8,
+          "wATT": 4,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Reaping (8+, 2)",
+          "wSR3": "Close Volley"
+        }
+      }
+    }
+  },
+  "Cipher_Class_Scud_Fighter": {
+    "admin": {
+      "uid": 25,
+      "name": "\"Cipher\" Class Scud-Fighter",
+      "faction": "Steel Specters",
+      "sub_faction": "Bladeburn",
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "70x120",
+      "cost": 135
+    },
+    "stats": {
+      "MOV": 10,
+      "W": 10,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Fly",
+      "sr3": "Armored (1)",
+      "sr4": "Advanced Deployment",
+      "sr5": "Swift",
+      "sr6": "Stealth (12\")",
+      "sr7": "Explodes (3\")"
+    },
+    "boosts": {
+      "boost1": "After this model performs a Run (Double) action, pick one enemy unit it passed over; perform a Shoot (Free) against that unit ignoring all ACC modifiers; Strafing Cannons gain Ignore Cover",
+      "boost2": "Redeploy"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 50,
+          "wname": "Strafing Cannons",
+          "wRNG": 8,
+          "wATT": 5,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Close Volley"
+        }
+      }
+    }
+  },
+  "Dragonfly": {
+    "admin": {
+      "uid": 26,
+      "name": "Dragonfly",
+      "faction": "Steel Specters",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "70x120",
+      "cost": 120
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 10,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Fly",
+      "sr3": "Armored (1)",
+      "sr4": "Advanced Deployment",
+      "sr5": "Explodes (3\")",
+      "sr6": "Skirmisher",
+      "sr7": "Transport (12)",
+      "sr8": "When activating, can choose to give Twin Automatic Anti-Personnel Guns Short and Nova (2), but this unit becomes shaken at end of activation; cannot use this and Redeploy in same activation"
+    },
+    "boosts": {
+      "boost1": "Swift",
+      "boost2": "Redeploy"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 51,
+          "wname": "Twin Automatic Anti-Personnel Guns",
+          "wRNG": 8,
+          "wATT": 5,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Point Blank (3)",
+          "wSR2": "Reaping (8+, 2)",
+          "wSR3": "Close Volley"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1663 @@
+{
+  "Korvaxx_the_Bonecrusher": {
+    "admin": {
+      "uid": 1,
+      "name": "Korvaxx, the Bonecrusher",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Korvaxx",
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 10,
+      "DEF": 4,
+      "LD": 3
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Fly",
+      "sr3": "Inspiring (12\")",
+      "sr4": "Counterstrike",
+      "sr5": "Character",
+      "sr6": "Bulky (3)",
+      "sr7": "Armored (1)"
+    },
+    "boosts": {
+      "boost1": "Swift, Fear (12\")",
+      "boost2": "Battle Synergy (12\"), Ripping Claws gain Reaping (8+, 3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 1,
+          "wname": "Shriek",
+          "wRNG": 4,
+          "wATT": 1,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault",
+          "wSR2": "Blast",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 2,
+          "wname": "Ripping Claws",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 3)",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Null_the_Hordemaster": {
+    "admin": {
+      "uid": 2,
+      "name": "Null, the Hordemaster",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": "images/units/Null_front.png",
+      "card_back": "images/units/Null_back.png",
+      "unique": true,
+      "unique_name": "Null",
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 90
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 8,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Inspiring (12\")",
+      "sr3": "Counterstrike",
+      "sr4": "Battle Synergy (12\")",
+      "sr5": "Character",
+      "sr6": "Scout (6\")",
+      "sr7": "Bulky (2)",
+      "sr8": "Interact (Single): Once per activation, choose a friendly Core unit within 12\" that has already activated; return that unit's activation token to the pool",
+      "sr9": "(Aura) Friendly Fleshseeker units within 12\" have Scout (6\")"
+    },
+    "boosts": {
+      "boost1": "Heal (Core, 6)",
+      "boost2": "Swift, Claws and Talons gain Reaping (7+, 3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 3,
+          "wname": "Claws and Talons",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (7+, 2)",
+          "wSR2": "Piercing (7+, 3)"
+        }
+      }
+    }
+  },
+  "Incarnate_Grudgemancer": {
+    "admin": {
+      "uid": 3,
+      "name": "Incarnate Grudgemancer",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 65
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 6,
+      "DEF": 4,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Character",
+      "sr2": "Bulky (2)",
+      "sr3": "(Aura) All enemy units treat all area within 12\" of this unit as Difficult Terrain"
+    },
+    "boosts": {
+      "boost1": "Interact (Single): Choose a friendly unit that is not Huge within 12\"; that unit can immediately Redeploy for free",
+      "boost2": "Grudge Spray gains Nova (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 4,
+          "wname": "Grudge Spray",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 5,
+          "wname": "Grudge Talon",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 3,
+          "wDMG": 4
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 6,
+          "wname": "Claws and Talons",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (7+, 2)",
+          "wSR2": "Piercing (7+, 3)"
+        }
+      }
+    }
+  },
+  "Mindshackler": {
+    "admin": {
+      "uid": 4,
+      "name": "Mindshackler",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": "images/units/Mindshackler_front.png",
+      "card_back": "images/units/Mindshackler_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "65x55",
+      "cost": 80
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 10,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Heavy Impact (1)",
+      "sr3": "Armored (1)",
+      "sr4": "Fear (12\")",
+      "sr5": "Explodes (3\")"
+    },
+    "boosts": {
+      "boost1": "Multi-fire (2), but one must be Mind Pulse"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 7,
+          "wname": "Tripod Legs",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {}
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 8,
+          "wname": "Mind Blast",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Stun"
+        }
+      },
+      "wpn3": {
+        "wStats": {
+          "wid": 9,
+          "wname": "Mind Strike",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 3,
+          "wAP": 3,
+          "wDMG": 5
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Sniper",
+          "wSR3": "Anti-Armor (7+)",
+          "wSR4": "Ignore Cover"
+        }
+      },
+      "wpn4": {
+        "wStats": {
+          "wid": 10,
+          "wname": "Mind Pulse",
+          "wRNG": 12,
+          "wATT": 1,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Boost Only",
+          "wSR2": "Nova (4)",
+          "wSR3": "Short",
+          "wSR4": "Stun",
+          "wSR5": "Volley Fire"
+        }
+      }
+    }
+  },
+  "Razorqueen": {
+    "admin": {
+      "uid": 5,
+      "name": "Razorqueen",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "90x65",
+      "cost": 50
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 10,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Armored (2)",
+      "sr2": "Large",
+      "sr3": "Impact (3)",
+      "sr4": "Heal (Razorspawn, 5)"
+    },
+    "boosts": {
+      "boost1": "Can use the Heal ability twice in the same turn",
+      "boost2": "(Once per game) Interact (Free): Create a new unit of 10 Razorspawn within 3\" of this model"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 11,
+          "wname": "Razorbite",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 3)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 12,
+          "wname": "Razorspray",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Stun"
+        }
+      }
+    }
+  },
+  "Ankarrian_Grudge_Belcher": {
+    "admin": {
+      "uid": 6,
+      "name": "Ankarrian Grudge Belcher",
+      "faction": "Gorkog",
+      "sub_faction": "Ankarrian",
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "90x65",
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 10,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Armored (2)",
+      "sr2": "Large",
+      "sr3": "Impact (3)",
+      "sr4": "Heal (Grudge-Mite, 4)",
+      "sr5": "Heal (Armored Grudge-Mite, 4)",
+      "sr6": "Explodes (6\")",
+      "sr7": "Explodes ability only affects enemy units and activates on 7+ instead of 9+"
+    },
+    "boosts": {
+      "boost1": "Can use the Heal ability twice in the same turn",
+      "boost2": "(Once per game) Interact (Free): Create a new unit of 8 Grudge-Mites or 8 Armored Grudge-Mites within 3\" of this model"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 13,
+          "wname": "Razorbite",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 14,
+          "wname": "Caustic Belch",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Poison (9+)",
+          "wSR4": "Anti-Armor (9+)",
+          "wSR5": "Piercing (9+, 3)"
+        }
+      }
+    }
+  },
+  "Grudgewalker": {
+    "admin": {
+      "uid": 7,
+      "name": "Grudgewalker",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": "images/units/Grudgewalker_front.png",
+      "card_back": "images/units/Grudgewalker_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 55,
+      "cost": 75
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 10,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Fly",
+      "sr3": "Armored (1)",
+      "sr4": "Explodes (3\")",
+      "sr5": "Transport (12)",
+      "sr6": "Advanced Deployment",
+      "sr7": "(Aura) All friendly units within 12\" count as being in Light Cover"
+    },
+    "boosts": {
+      "boost1": "(Aura) All friendly units that begin any type of move within 12\" gain +2\" to Movement",
+      "boost2": "(Aura) Worsen the Defense of all enemy units by 2 while they are within 12\""
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 15,
+          "wname": "Grudge Spray",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Stun",
+          "wSR4": "Poison (9+)",
+          "wSR5": "Anti-Armor (9+)",
+          "wSR6": "Piercing (9+, 2)"
+        }
+      }
+    }
+  },
+  "Ryavis_the_Flesh_Eater": {
+    "admin": {
+      "uid": 8,
+      "name": "Ryavis, the Flesh Eater",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Ryavis",
+      "unit_size": 1,
+      "base_size": 32,
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 8,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Character",
+      "sr3": "Heal (Fleshseeker, 4)",
+      "sr4": "Stealth (12\")",
+      "sr5": "Interact (Free): Once per activation, choose a friendly Fleshseeker unit within 12\" that is not shaken; that unit can immediately make a Move (Free) action",
+      "sr6": "(Aura) Friendly Fleshseeker units within 12\" have Stealth (12\") and gain +2\" to any Charge moves"
+    },
+    "boosts": {
+      "boost1": "Swift",
+      "boost2": "(Aura) Friendly Fleshseeker units within 12\" gain Bloodthirsty",
+      "boost3": "(Once per game) Interact (Single): Create a new unit of 12 Fleshseekers with Advanced Deployment and place in reserve; add a new Core activation token to the pool"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 16,
+          "wname": "Claws and Talons",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (7+, 2)",
+          "wSR2": "Piercing (7+, 3)"
+        }
+      }
+    }
+  },
+  "Razorspawn": {
+    "admin": {
+      "uid": 9,
+      "name": "Razorspawn",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 10,
+      "base_size": 25,
+      "cost": 25
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 1,
+      "DEF": 8,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Leaderless"
+    },
+    "boosts": {
+      "boost1": "Swift, Claws and Teeth gain Reaping (9+, 2)",
+      "boost2": "Cannot make close combat attacks, but improve Defense to 5+"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 17,
+          "wname": "Claws and Teeth",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Armored_Grudge_Mites": {
+    "admin": {
+      "uid": 10,
+      "name": "Armored Grudge-Mites",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 8,
+      "base_size": 25,
+      "cost": 45
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 1,
+      "DEF": 6,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Leaderless",
+      "sr2": "Explodes (1\")",
+      "sr3": "Stalwart",
+      "sr4": "When this unit Explodes, friendly Gorkog units are not affected",
+      "sr5": "Can choose to destroy models from this unit during CC attack; Explodes activates on 3+; Armored units suffer DMG 2 AP 3 hit that ignores Armored rule"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Swift, and when this unit Explodes count the unit's Wounds as 2"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 18,
+          "wname": "Claws and Teeth",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 8,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Grudge_Mites": {
+    "admin": {
+      "uid": 11,
+      "name": "Grudge-Mites",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 8,
+      "base_size": 25,
+      "cost": 45
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 1,
+      "DEF": 8,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Leaderless",
+      "sr2": "Explodes (1\")",
+      "sr3": "Stalwart",
+      "sr4": "Swift",
+      "sr5": "When this unit Explodes, friendly Gorkog units are not affected",
+      "sr6": "Can choose to destroy models from this unit during CC attack; Explodes activates on 3+; Non-Armored units suffer DMG 2 AP 2 hit instead"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "When this unit Explodes, count the unit's Wounds as 2"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 19,
+          "wname": "Claws and Teeth",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 8,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Grudge_Jammers": {
+    "admin": {
+      "uid": 12,
+      "name": "Grudge-Jammers",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 8,
+      "base_size": 25,
+      "cost": 40
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 1,
+      "DEF": 7,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Leaderless",
+      "sr2": "(Aura) Enemy units within 12\" cannot benefit from friendly Aura abilities (e.g. Inspiring)",
+      "sr3": "(Aura) Enemy units within 12\" worsen the Accuracy of all weapons by 1"
+    },
+    "boosts": {
+      "boost1": "Fear (12\") and can activate Sonic Blast",
+      "boost2": "Target Lock (12\") and Target Coordination (12\")"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 20,
+          "wname": "Claws and Teeth",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 8,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 21,
+          "wname": "Sonic Blast",
+          "wRNG": 12,
+          "wATT": 1,
+          "wACC": 7,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Stun",
+          "wSR3": "Boost Only"
+        }
+      }
+    }
+  },
+  "Fleshseekers": {
+    "admin": {
+      "uid": 13,
+      "name": "Fleshseekers",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": "images/units/Fleshseekers_front.png",
+      "card_back": "images/units/Fleshseekers_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 12,
+      "base_size": 25,
+      "cost": 50
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 1,
+      "DEF": 7,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Leaderless"
+    },
+    "boosts": {
+      "boost1": "Call Reinforcements: Before taking any actions, return up to 4 slain models to this unit",
+      "boost2": "Swift, and Claws and Teeth gain Reaping (8+, 3)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 22,
+          "wname": "Claws and Teeth",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)"
+        }
+      }
+    }
+  },
+  "Ankarrian_Plasma_Retchers": {
+    "admin": {
+      "uid": 14,
+      "name": "Ankarrian Plasma-Retchers",
+      "faction": "Gorkog",
+      "sub_faction": "Ankarrian",
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": "images/units/Plasma_Retchers_front.png",
+      "card_back": "images/units/Plasma_Retchers_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 12,
+      "base_size": 25,
+      "cost": 35
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 1,
+      "DEF": 7,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Leaderless"
+    },
+    "boosts": {
+      "boost1": "Retcher Cannon gains Stun",
+      "boost2": "Retcher Cannon gains Short and Crushing (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 23,
+          "wname": "Retcher Cannon",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 3)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 24,
+          "wname": "Teeth and Claws",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Ankarrian_Plasma_Spitters": {
+    "admin": {
+      "uid": 15,
+      "name": "Ankarrian Plasma-Spitters",
+      "faction": "Gorkog",
+      "sub_faction": "Ankarrian",
+      "unit_type": "Core",
+      "thumbnail": null,
+      "card_front": "images/units/Plasma_Spitters_front.png",
+      "card_back": "images/units/Plasma_Spitters_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 12,
+      "base_size": 25,
+      "cost": 50
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 1,
+      "DEF": 7,
+      "LD": 6
+    },
+    "special_rules": {
+      "sr1": "Leaderless"
+    },
+    "boosts": {
+      "boost1": "Spitter Cannon gains Reaping (8+, 2)",
+      "boost2": "Spitter Cannon gains Piercing (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 25,
+          "wname": "Spitter Cannon",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Volley Fire",
+          "wSR2": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 26,
+          "wname": "Teeth and Claws",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Bladefuries": {
+    "admin": {
+      "uid": 16,
+      "name": "Bladefuries",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 4,
+      "base_size": 32,
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 3,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Leaderless",
+      "sr2": "Bulky (2)"
+    },
+    "boosts": {
+      "boost1": "Can perform three actions (or one single and one double action)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 27,
+          "wname": "Acid Cannon",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (9+)",
+          "wSR2": "Piercing (9+, 3)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 28,
+          "wname": "Crushing Claw",
+          "wRNG": "M",
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 2)",
+          "wSR2": "Crushing (8+, 3)"
+        }
+      }
+    }
+  },
+  "Stalkers": {
+    "admin": {
+      "uid": 17,
+      "name": "Stalkers",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 4,
+      "base_size": 32,
+      "cost": 90
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 3,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Stealth (12\")",
+      "sr2": "Scout (6\")",
+      "sr3": "Counterstrike",
+      "sr4": "Parry (2)",
+      "sr5": "Leaderless",
+      "sr6": "Bulky (2)",
+      "sr7": "When this unit charges, it gains +3\" to the charge distance"
+    },
+    "boosts": {
+      "boost1": "Swift, Tearing Claws gain Reaping (8+, 3)",
+      "boost2": "Stealth (3\")"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 29,
+          "wname": "Tearing Claws",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 2)",
+          "wSR2": "Piercing (8+, 4)"
+        }
+      }
+    }
+  },
+  "Scream_Skitter": {
+    "admin": {
+      "uid": 18,
+      "name": "Scream-Skitter",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 45,
+      "cost": 70
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 10,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Fear (12\")",
+      "sr2": "Armored (1)",
+      "sr3": "Stealth (12\")",
+      "sr4": "Bulky (4)"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Tentacle Talons gain Range 12\", Short, and Ignore Cover"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 30,
+          "wname": "Tentacle Talons",
+          "wRNG": "M",
+          "wATT": 5,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Poison (8+)",
+          "wSR2": "Reaping (8+, 2)",
+          "wSR3": "Stun"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 31,
+          "wname": "Horrifying Scream",
+          "wRNG": 12,
+          "wATT": 1,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Nova (4)",
+          "wSR2": "Stun",
+          "wSR3": "Short",
+          "wSR4": "Volley Fire",
+          "wSR5": "Ignore Cover"
+        }
+      }
+    }
+  },
+  "Razorbacks": {
+    "admin": {
+      "uid": 19,
+      "name": "Razorbacks",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 6,
+      "base_size": 32,
+      "cost": 75
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 2,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Leaderless"
+    },
+    "boosts": {
+      "boost1": "Hail of Spikes loses Volley Fire and gains Sniper",
+      "boost2": "Hail of Spikes gains Point Blank (1) and Assault"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 32,
+          "wname": "Hail of Spikes",
+          "wRNG": 12,
+          "wATT": 2,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (9+, 2)",
+          "wSR2": "Piercing (9+, 2)",
+          "wSR3": "Volley Fire"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 33,
+          "wname": "Teeth and Claws",
+          "wRNG": "M",
+          "wATT": 1,
+          "wACC": 6,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {}
+      }
+    }
+  },
+  "Fleshstealers": {
+    "admin": {
+      "uid": 20,
+      "name": "Fleshstealers",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 4,
+      "base_size": 32,
+      "cost": 80
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 2,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Fly",
+      "sr2": "Advanced Deployment",
+      "sr3": "Leaderless",
+      "sr4": "Bulky (2)"
+    },
+    "boosts": {
+      "boost1": "All weapons have Poison (7+), Anti-Armor (7+), and Piercing (7+, 3)",
+      "boost2": "Redeploy"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 34,
+          "wname": "Venomous Spit",
+          "wRNG": 4,
+          "wATT": 3,
+          "wACC": 5,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Poison (9+)",
+          "wSR2": "Anti-Armor (9+)",
+          "wSR3": "Point Blank (1)",
+          "wSR4": "Piercing (9+, 3)",
+          "wSR5": "Close Volley"
+        }
+      }
+    }
+  },
+  "Flame_Terrors": {
+    "admin": {
+      "uid": 21,
+      "name": "Flame Terrors",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": "images/units/Flameterrors_front.png",
+      "card_back": "images/units/Flameterrors_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 2,
+      "base_size": "50x40",
+      "cost": 85
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 6,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Armored (1)",
+      "sr2": "Impact (2)",
+      "sr3": "Explodes (3\")",
+      "sr4": "Fear (6\")",
+      "sr5": "Leaderless",
+      "sr6": "Close Formation",
+      "sr7": "Bulky (3)"
+    },
+    "boosts": {
+      "boost1": "Flamespitter gains Nova (2)",
+      "boost2": "Flamespitter gains Anti-Armor (9+) and Piercing (9+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 35,
+          "wname": "Flamespitter",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Stun",
+          "wSR3": "Poison (9+)",
+          "wSR4": "Reaping (9+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 36,
+          "wname": "Mandibles",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Poison (9+)",
+          "wSR2": "Stun"
+        }
+      }
+    }
+  },
+  "Rage_Terrors": {
+    "admin": {
+      "uid": 22,
+      "name": "Rage Terrors",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Elite",
+      "thumbnail": null,
+      "card_front": "images/units/Rageterrors_front.png",
+      "card_back": "images/units/Rageterrors_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 2,
+      "base_size": "50x40",
+      "cost": 80
+    },
+    "stats": {
+      "MOV": 4,
+      "W": 6,
+      "DEF": 6,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Armored (1)",
+      "sr2": "Impact (2)",
+      "sr3": "Fear (6\")",
+      "sr4": "Shock Assault",
+      "sr5": "Leaderless",
+      "sr6": "Close Formation",
+      "sr7": "Bulky (3)",
+      "sr8": "When this unit charges, it gains +3\" to the charge distance"
+    },
+    "boosts": {
+      "boost1": "Swift",
+      "boost2": "Disruption Pulse loses Assault and gains Nova (2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 37,
+          "wname": "Disruption Pulse",
+          "wRNG": 8,
+          "wATT": 1,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Stun",
+          "wSR3": "Assault"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 38,
+          "wname": "Mandibles",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Poison (9+)",
+          "wSR2": "Stun"
+        }
+      }
+    }
+  },
+  "Razorworm": {
+    "admin": {
+      "uid": 23,
+      "name": "Razorworm",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "120x92",
+      "cost": 145
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 20,
+      "DEF": 4,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Huge",
+      "sr2": "Heavy Impact (3)",
+      "sr3": "Armored (3)",
+      "sr4": "Fear (6\")",
+      "sr5": "Advanced Deployment",
+      "sr6": "Explodes (3\")",
+      "sr7": "Degrades",
+      "sr8": "Redeploy (Double action): Can ignore normal placement restrictions and be placed anywhere on table, displacing non-Large/Huge enemy models; cannot use this to Charge"
+    },
+    "boosts": {
+      "boost1": "Swift, Fly",
+      "boost2": "Redeploy, can choose to replace Heavy Impact (3) with Crushing Impact"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 39,
+          "wname": "Monstrous Mandibles",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 1,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (7+)",
+          "wSR2": "Piercing (7+, 3)",
+          "wSR3": "Reaping (7+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 40,
+          "wname": "Acid Spray",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 1,
+          "wDMG": 1
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Poison (9+)"
+        }
+      }
+    }
+  },
+  "Fleshscorchers": {
+    "admin": {
+      "uid": 24,
+      "name": "Fleshscorchers",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 55,
+      "cost": 90
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 8,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Armored (1)",
+      "sr3": "Heavy Impact (2)",
+      "sr4": "Advanced Deployment"
+    },
+    "boosts": {
+      "boost1": "Redeploy",
+      "boost2": "Massive Pincers lose Crushing (8+, 5) and gain Reaping (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 41,
+          "wname": "Massive Pincers",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 4)",
+          "wSR2": "Crushing (8+, 5)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 42,
+          "wname": "Scorching Spray",
+          "wRNG": 8,
+          "wATT": 2,
+          "wACC": 4,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Short",
+          "wSR2": "Blast",
+          "wSR3": "Stun",
+          "wSR4": "Poison (9+)",
+          "wSR5": "Anti-Armor (9+)",
+          "wSR6": "Piercing (9+, 3)"
+        }
+      }
+    }
+  },
+  "Macidon": {
+    "admin": {
+      "uid": 25,
+      "name": "Macidon",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": "images/units/Macidon_front.png",
+      "card_back": "images/units/Macidon_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "92x70",
+      "cost": 105
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 15,
+      "DEF": 4,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Huge",
+      "sr2": "Armored (3)",
+      "sr3": "Heavy Impact (3)",
+      "sr4": "Degrades",
+      "sr5": "Explodes (3\")",
+      "sr6": "Fear (6\")"
+    },
+    "boosts": {
+      "boost1": "Swift",
+      "boost2": "Bloodthirsty, and Massive Jaws and Tail gain Reaping (8+, 2)"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 43,
+          "wname": "Massive Jaws and Tail",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 4
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Anti-Armor (8+)",
+          "wSR2": "Piercing (8+, 4)"
+        }
+      }
+    }
+  },
+  "Aegidon": {
+    "admin": {
+      "uid": 26,
+      "name": "Aegidon",
+      "faction": "Gorkog",
+      "sub_faction": null,
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": "images/units/Aegidon_front.png",
+      "card_back": "images/units/Aegidon_back.png",
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": "92x70",
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 12,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Armored (2)",
+      "sr3": "Crushing Impact",
+      "sr4": "Explodes (3\")"
+    },
+    "boosts": {
+      "boost1": "Swift",
+      "boost2": "Maw and Claws gain Stun, Fear (6\")"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 44,
+          "wname": "Maw and Claws",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 5,
+          "wAP": 1,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Reaping (8+, 3)",
+          "wSR2": "Piercing (8+, 3)"
+        }
+      }
+    }
+  },
+  "Ankarrian_Fleshmelter": {
+    "admin": {
+      "uid": 27,
+      "name": "Ankarrian Fleshmelter",
+      "faction": "Gorkog",
+      "sub_faction": "Ankarrian",
+      "unit_type": "Support",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": false,
+      "unique_name": null,
+      "unit_size": 1,
+      "base_size": 55,
+      "cost": 130
+    },
+    "stats": {
+      "MOV": 8,
+      "W": 10,
+      "DEF": 5,
+      "LD": 5
+    },
+    "special_rules": {
+      "sr1": "Large",
+      "sr2": "Impact (3)",
+      "sr3": "Armored (1)",
+      "sr4": "Advanced Deployment",
+      "sr5": "Fly",
+      "sr6": "Explodes (6\")"
+    },
+    "boosts": {
+      "boost1": "Fleshmelter gains Nova (2) and Short",
+      "boost2": "Redeploy"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 45,
+          "wname": "Monstrous Mandibles",
+          "wRNG": "M",
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Piercing (8+, 3)",
+          "wSR2": "Reaping (8+, 2)"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 46,
+          "wname": "Fleshmelter",
+          "wRNG": 8,
+          "wATT": 3,
+          "wACC": 3,
+          "wAP": 0,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Blast",
+          "wSR2": "Stun",
+          "wSR3": "Poison (8+)",
+          "wSR4": "Anti-Armor (8+)",
+          "wSR5": "Piercing (8+, 3)"
+        }
+      }
+    }
+  }
+}

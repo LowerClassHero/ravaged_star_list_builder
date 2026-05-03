@@ -1,0 +1,68 @@
+{
+  "Yurion_Lazgore": {
+    "admin": {
+      "uid": 1,
+      "name": "Yurion Lazgore",
+      "faction": "Mercenaries",
+      "sub_faction": null,
+      "unit_type": "Commander",
+      "thumbnail": null,
+      "card_front": null,
+      "card_back": null,
+      "unique": true,
+      "unique_name": "Yurion Lazgore",
+      "unit_size": 1,
+      "base_size": 40,
+      "cost": 95
+    },
+    "stats": {
+      "MOV": 6,
+      "W": 8,
+      "DEF": 5,
+      "LD": 4
+    },
+    "special_rules": {
+      "sr1": "Unique",
+      "sr2": "Bulky (2)",
+      "sr3": "Heal (Armored, 5)",
+      "sr4": "Character",
+      "sr5": "Can be included in any faction; takes up a Commander slot"
+    },
+    "boosts": {
+      "boost1": "(Aura) All Large Armored and Huge Armored units within 12\" gain Swift and Fear (6\")",
+      "boost2": "(Aura) All Large Armored and Huge Armored units within 12\" improve the Accuracy and AP of all weapons by 1"
+    },
+    "wpns": {
+      "wpn1": {
+        "wStats": {
+          "wid": 1,
+          "wname": "Experimental Sentry Arms",
+          "wRNG": 4,
+          "wATT": 4,
+          "wACC": 4,
+          "wAP": 2,
+          "wDMG": 2
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Assault"
+        }
+      },
+      "wpn2": {
+        "wStats": {
+          "wid": 2,
+          "wname": "Prototype Selisteel Battle Axe",
+          "wRNG": "M",
+          "wATT": 4,
+          "wACC": 3,
+          "wAP": 2,
+          "wDMG": 3
+        },
+        "wSpecial_Rules": {
+          "wSR1": "Stun",
+          "wSR2": "Reaping (8+, 2)",
+          "wSR3": "Piercing (8+, 4)"
+        }
+      }
+    }
+  }
+}
