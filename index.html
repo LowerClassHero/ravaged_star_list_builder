@@ -119,18 +119,50 @@
   .roster-empty { text-align: center; padding: 3rem 1.5rem; color: var(--text-dim); }
   .roster-empty-icon { font-size: 40px; margin-bottom: 12px; opacity: 0.3; font-family: var(--font-display); }
   .roster-empty p { font-family: var(--font-body); font-size: 15px; line-height: 1.6; letter-spacing: 0.5px; }
-  .roster-section-label { font-family: var(--font-display); font-size: 14px; font-weight: 700; letter-spacing: 2px; color: var(--text-bright-gray); text-transform: uppercase; padding: 8px 4px 4px; border-bottom: 1px solid var(--border); margin-bottom: 4px; }
-  .roster-entry { display: flex; align-items: center; gap: 10px; padding: 8px 10px; background: var(--bg-surface); border: 1px solid var(--border); border-radius: 4px; margin-bottom: 4px; transition: all 0.15s; cursor: default; position: relative; overflow: hidden; }
-  .roster-entry::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--entry-bar-color, var(--faction-color)); opacity: 1; }
-  .roster-entry:hover { background: var(--bg-raised); border-color: rgba(255,255,255,0.12); }
-  .entry-info { flex: 1; min-width: 0; }
-  .entry-name-input { font-family: var(--font-display); font-size: 19px; font-weight: 700; color: var(--text-primary); background: transparent; border: none; border-bottom: 1px solid transparent; outline: none; width: 100%; padding: 0; line-height: 1.2; transition: border-color 0.2s; }
+  /* ── ROSTER SECTIONS ── */
+  .roster-section { margin-bottom: 6px; border: 1px solid var(--border); border-radius: 5px; overflow: hidden; }
+  .roster-section-header { display: flex; align-items: center; gap: 8px; padding: 7px 10px; background: var(--bg-mid); cursor: pointer; user-select: none; transition: background 0.15s; }
+  .roster-section-header:hover { background: var(--bg-raised); }
+  .roster-section-icon { width: 20px; height: 20px; object-fit: contain; opacity: 0.8; flex-shrink: 0; }
+  .roster-section-label { font-family: var(--font-display); font-size: 13px; font-weight: 700; letter-spacing: 2px; color: var(--text-bright-gray); text-transform: uppercase; flex: 1; }
+  .roster-section-meta { display: flex; align-items: center; gap: 8px; }
+  .roster-section-count { font-family: var(--font-mono); font-size: 11px; color: var(--text-dim); background: var(--bg-raised); padding: 1px 6px; border-radius: 10px; }
+  .roster-section-cost { font-family: var(--font-display); font-size: 13px; font-weight: 700; color: var(--gold); }
+  .roster-section-chevron { font-size: 12px; color: var(--text-dim); transition: transform 0.2s; flex-shrink: 0; }
+  .roster-section-chevron.open { transform: rotate(180deg); }
+  .roster-section-entries { }
+  .roster-section-entries.collapsed { display: none; }
+
+  /* ── ROSTER ENTRIES ── */
+  .roster-entry { background: var(--bg-surface); border-bottom: 1px solid var(--border); position: relative; transition: background 0.15s; }
+  .roster-entry:last-child { border-bottom: none; }
+  .roster-entry::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--entry-bar-color, var(--faction-color)); }
+  .roster-entry.dragging { opacity: 0.4; }
+  .roster-entry.drag-over { border-color: var(--faction-color); background: var(--faction-color-dim); }
+  /* Compact header row — always visible */
+  .entry-row { display: flex; align-items: center; gap: 8px; padding: 6px 10px 6px 12px; cursor: pointer; }
+  .entry-row:hover { background: var(--bg-raised); }
+  .drag-handle { flex-shrink: 0; cursor: grab; color: var(--text-dim); font-size: 15px; line-height: 1; padding: 0 2px; user-select: none; }
+  .drag-handle:hover { color: var(--text-bright-gray); }
+  .drag-handle:active { cursor: grabbing; }
+  .entry-name { font-family: var(--font-display); font-size: 15px; font-weight: 700; color: var(--text-primary); flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .entry-name.renamed { color: var(--faction-color-bright); }
+  .entry-cost { font-family: var(--font-display); font-size: 14px; font-weight: 700; color: var(--gold); flex-shrink: 0; text-align: right; }
+  .entry-cost-pts { font-family: var(--font-body); font-size: 10px; color: var(--gold-dim); margin-left: 2px; }
+  .remove-btn { width: 22px; height: 22px; background: transparent; border: none; color: var(--text-dim); font-size: 16px; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 3px; transition: all 0.15s; flex-shrink: 0; line-height: 1; }
+  .remove-btn:hover { color: var(--accent-bright); background: var(--accent-glow); }
+  .nav-btn { width: 22px; height: 22px; background: transparent; border: none; color: var(--text-dim); font-size: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 3px; transition: all 0.15s; flex-shrink: 0; line-height: 1; }
+  .nav-btn:hover { color: var(--faction-color-bright); background: var(--faction-color-dim); }
+  /* Detail area — always shown when section is expanded */
+  .entry-detail { padding: 4px 10px 8px 24px; background: var(--bg-mid); border-top: 1px solid var(--border); display: none; }
+  .entry-detail.open { display: block; }
+  .entry-name-input { font-family: var(--font-display); font-size: 14px; font-weight: 600; color: var(--text-primary); background: transparent; border: none; border-bottom: 1px solid transparent; outline: none; width: 100%; padding: 0 0 2px; line-height: 1.3; transition: border-color 0.2s; margin-bottom: 2px; }
   .entry-name-input:hover { border-bottom-color: var(--border); }
   .entry-name-input:focus { border-bottom-color: var(--faction-color); }
-  .entry-name-input::placeholder { color: var(--text-primary); font-weight: 700; opacity: 1; }
-  .entry-unit-type { font-family: var(--font-body); font-size: 12px; color: var(--text-dim); margin-top: 1px; font-style: italic; }
-  .entry-name { font-family: var(--font-display); font-size: 19px; font-weight: 700; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .entry-meta { font-family: var(--font-body); font-size: 15px; color: var(--text-bright-gray); margin-top: 3px; }
+  .entry-name-input::placeholder { color: var(--text-dim); font-weight: 400; font-style: italic; }
+  .entry-unit-type { font-family: var(--font-body); font-size: 11px; color: var(--text-dim); font-style: italic; margin-bottom: 2px; }
+  .entry-meta { font-family: var(--font-body); font-size: 12px; color: var(--text-bright-gray); }
+  .entry-options { font-family: var(--font-body); font-size: 12px; color: var(--faction-color-bright); margin-top: 2px; transition: color 0.3s; }
   .entry-qty { display: flex; align-items: center; gap: 4px; }
   .qty-btn { width: 20px; height: 20px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: 3px; color: var(--text-secondary); font-size: 16px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.15s; font-family: var(--font-display); }
   .qty-btn:hover { background: var(--faction-color); border-color: var(--faction-color); color: white; }
@@ -369,8 +401,8 @@
       <a class="nav-link" href="https://ravagedstar.com/" target="_blank" rel="noopener">Game Resources</a>
       <a class="nav-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3163854273" target="_blank" rel="noopener">Tabletop Simulator Mod</a>
     </nav>
-    <button class="btn btn-outline btn-header btn-titlecase" onclick="loadListFromFile()">⬆ Import</button>
-    <button class="btn btn-outline btn-header btn-titlecase" onclick="saveList()">⬇ Export JSON</button>
+    <button class="btn btn-outline btn-header btn-titlecase" onclick="loadListFromFile()">⬆ Import List</button>
+    <button class="btn btn-outline btn-header btn-titlecase" onclick="saveList()">⬇ Export List</button>
     <button class="btn btn-primary btn-header btn-titlecase" onclick="exportPDF()">⬇ Export PDF</button>
   </div>
 </header>
@@ -1092,7 +1124,7 @@ function addUnitWithOptions(unitKey, chosenOptions) {
   // Store the faction bar color at add-time so it persists even if faction changes
   const entryFaction = unit.admin.faction === 'Mercenaries' ? (selectedFaction || 'Mercenaries') : unit.admin.faction;
   const barColor = factionColor(entryFaction).color;
-  roster.push({ unitKey, qty: 1, options: chosenOptions, barColor });
+  roster.push({ unitKey, options: chosenOptions, barColor, customName: '' });
   renderRoster();
   renderFactions(); // re-lock faction selector
   updateFactionBadge();
@@ -1317,6 +1349,105 @@ function buildUnitCard(key, unit, delay = 0) {
   </div>`;
 }
 
+// ─── ROSTER ENTRY EXPAND/COLLAPSE ────────────────────────
+function toggleEntryDetail(rowEl) {
+  const detail = rowEl.closest('.roster-entry').querySelector('.entry-detail');
+  if (detail) detail.classList.toggle('open');
+}
+
+// ─── ROSTER SECTION COLLAPSE ─────────────────────────────
+function toggleRosterSection(type) {
+  const collapsedSections = window._collapsedSections || new Set();
+  window._collapsedSections = collapsedSections;
+  const entries = document.getElementById('section-entries-' + type);
+  const chev = document.getElementById('chev-' + type);
+  if (!entries) return;
+  const nowCollapsed = entries.classList.toggle('collapsed');
+  if (nowCollapsed) collapsedSections.add(type);
+  else collapsedSections.delete(type);
+  if (chev) chev.classList.toggle('open', !nowCollapsed);
+}
+
+// ─── NAVIGATE TO UNIT FROM ROSTER ────────────────────────
+function navigateToUnit(unitKey) {
+  const unit = UNIT_DB[unitKey];
+  if (!unit) return;
+  const targetFaction = unit.admin.faction === 'Mercenaries' ? selectedFaction : unit.admin.faction;
+  const targetType = unit.admin.unit_type;
+
+  // Switch faction if needed (only in unlimited mode)
+  if (targetFaction && targetFaction !== selectedFaction) {
+    if (unlimited) selectFaction(targetFaction);
+  } else {
+    // Switch to the correct unit type tab
+    if (targetType !== activeType) selectType(targetType);
+  }
+  if (targetType !== activeType) selectType(targetType);
+
+  // Scroll the unit browser to that card
+  setTimeout(() => {
+    const grid = document.getElementById('unitsGrid');
+    if (!grid) return;
+    // Find the base key (variable size units share a card with their base key)
+    const baseKey = Object.keys(VARIABLE_SIZE_ALT_KEYS).find(k => VARIABLE_SIZE_PAIRS[k]?.altKey === unitKey) || unitKey;
+    const cards = grid.querySelectorAll('.unit-card');
+    // Cards are rendered in order — find by matching the unit name in card-name div
+    const targetName = unit.admin.name;
+    for (const card of cards) {
+      const nameEl = card.querySelector('.unit-card-name');
+      if (nameEl && nameEl.textContent.includes(targetName.split('(')[0].trim())) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Brief highlight flash
+        card.style.transition = 'box-shadow 0.15s';
+        card.style.boxShadow = '0 0 0 2px var(--faction-color)';
+        setTimeout(() => { card.style.boxShadow = ''; }, 800);
+        break;
+      }
+    }
+  }, 80);
+}
+
+// ─── DRAG-AND-DROP REORDER ────────────────────────────────
+let dragSrcIdx = null;
+let dragSrcType = null;
+
+function initRosterDragDrop() {
+  const entries = document.querySelectorAll('.roster-entry[draggable]');
+  entries.forEach(el => {
+    el.addEventListener('dragstart', e => {
+      dragSrcIdx  = parseInt(el.dataset.rosterIdx);
+      dragSrcType = el.dataset.unitType;
+      el.classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+    });
+    el.addEventListener('dragend', () => {
+      el.classList.remove('dragging');
+      document.querySelectorAll('.roster-entry.drag-over').forEach(d => d.classList.remove('drag-over'));
+      dragSrcIdx = null; dragSrcType = null;
+    });
+    el.addEventListener('dragover', e => {
+      e.preventDefault();
+      const targetType = el.dataset.unitType;
+      if (targetType !== dragSrcType) { e.dataTransfer.dropEffect = 'none'; return; }
+      e.dataTransfer.dropEffect = 'move';
+      document.querySelectorAll('.roster-entry.drag-over').forEach(d => d.classList.remove('drag-over'));
+      el.classList.add('drag-over');
+    });
+    el.addEventListener('dragleave', () => el.classList.remove('drag-over'));
+    el.addEventListener('drop', e => {
+      e.preventDefault();
+      el.classList.remove('drag-over');
+      const targetIdx = parseInt(el.dataset.rosterIdx);
+      const targetType = el.dataset.unitType;
+      if (dragSrcIdx === null || dragSrcIdx === targetIdx || targetType !== dragSrcType) return;
+      const moved = roster.splice(dragSrcIdx, 1)[0];
+      const newTarget = targetIdx > dragSrcIdx ? targetIdx - 1 : targetIdx;
+      roster.splice(newTarget, 0, moved);
+      renderRoster();
+    });
+  });
+}
+
 // ─── RENDER: ROSTER ───────────────────────────────────────
 function renderRoster() {
   const list = document.getElementById('rosterList');
@@ -1333,7 +1464,7 @@ function renderRoster() {
 
   if (!roster.length) {
     empty.style.display = 'block';
-    list.querySelectorAll('.roster-entry, .roster-section-label').forEach(e => e.remove());
+    list.querySelectorAll('.roster-section, .roster-entry, .roster-section-label').forEach(e => e.remove());
     return;
   }
 
@@ -1345,60 +1476,89 @@ function renderRoster() {
     grouped[type].push(entry);
   });
 
+  function getRosterFaction() {
+    const first = roster.find(e => UNIT_DB[e.unitKey].admin.faction !== 'Mercenaries');
+    return first ? UNIT_DB[first.unitKey].admin.faction : selectedFaction;
+  }
+
+  const collapsedSections = window._collapsedSections || new Set();
+  window._collapsedSections = collapsedSections;
+
   let html = '';
   TYPE_ORDER.forEach(type => {
     if (!grouped[type]) return;
-    html += `<div class="roster-section-label">${type}</div>`;
-    grouped[type].forEach((entry, ei) => {
+    const rosterFaction = getRosterFaction();
+    const iconFn = TYPE_ICONS[type];
+    const iconSrc = iconFn && rosterFaction && rosterFaction !== 'Mercenaries' ? iconFn(rosterFaction) : null;
+    const iconImg = iconSrc ? `<img class="roster-section-icon" src="${iconSrc}" alt="${type}" />` : '';
+    const sectionCost = grouped[type].reduce((s, e) => s + UNIT_DB[e.unitKey].admin.cost, 0);
+    const isCollapsed = collapsedSections.has(type);
+
+    html += `<div class="roster-section">
+      <div class="roster-section-header" onclick="toggleRosterSection('${type}')">
+        ${iconImg}
+        <span class="roster-section-label">${type}</span>
+        <div class="roster-section-meta">
+          <span class="roster-section-count">${grouped[type].length}</span>
+          <span class="roster-section-cost">${sectionCost} pts</span>
+        </div>
+        <span class="roster-section-chevron ${isCollapsed ? '' : 'open'}" id="chev-${type}">▾</span>
+      </div>
+      <div class="roster-section-entries ${isCollapsed ? 'collapsed' : ''}" id="section-entries-${type}">`;
+
+    grouped[type].forEach((entry) => {
       const unit = UNIT_DB[entry.unitKey];
       const a = unit.admin;
       const rosterIdx = roster.indexOf(entry);
-      const ek = entry.unitKey.replace(/'/g,"\\'");
-
-      // Meta line: unit size
-      const sizeText = `Unit Size: ${a.unit_size}`;
-      const uniqueBadge = a.unique
-        ? `<span style="font-family:var(--font-body);font-size:11px;padding:1px 5px;border-radius:2px;background:rgba(212,168,55,0.15);border:1px solid rgba(212,168,55,0.4);color:var(--gold);margin-left:6px">Unique</span>`
-        : '';
-
-      // Options line
-      const optionsHtml = entry.options && entry.options.length
-        ? `<div style="font-family:var(--font-body);font-size:13px;color:var(--faction-color-bright);margin-top:3px">${entry.options.join(' · ')}</div>`
-        : '';
-
-      // Custom name input — pre-filled with customName if set, placeholder is the unit name
+      const ek = entry.unitKey.replace(/'/g, "\\'");
+      const displayName = entry.customName || a.name;
+      const isRenamed = !!entry.customName;
       const customNameVal = (entry.customName || '').replace(/"/g, '&quot;');
-
-      // Show unit type name as subtitle only when a custom name has been entered
+      const uniqueBadge = a.unique
+        ? `<span style="font-size:10px;padding:1px 5px;border-radius:2px;background:rgba(212,168,55,0.15);border:1px solid rgba(212,168,55,0.4);color:var(--gold);margin-left:5px">Unique</span>`
+        : '';
+      const optionsHtml = entry.options && entry.options.length
+        ? `<div class="entry-options">${entry.options.join(' · ')}</div>`
+        : '';
       const unitTypeSubtitle = entry.customName
         ? `<div class="entry-unit-type">${a.name}</div>`
         : '';
 
-      html += `<div class="roster-entry" style="--entry-bar-color:${entry.barColor || 'var(--faction-color)'}">
-        <div class="entry-info">
+      html += `<div class="roster-entry"
+          style="--entry-bar-color:${entry.barColor || 'var(--faction-color)'}"
+          draggable="true"
+          data-roster-idx="${rosterIdx}"
+          data-unit-type="${type}">
+        <div class="entry-row" onclick="toggleEntryDetail(this)" title="Click to expand/collapse">
+          <span class="drag-handle" onclick="event.stopPropagation()" title="Drag to reorder">⠿</span>
+          <span class="entry-name ${isRenamed ? 'renamed' : ''}">${displayName}</span>
+          <div class="entry-cost">${a.cost}<span class="entry-cost-pts">PTS</span></div>
+          <button class="nav-btn" onclick="event.stopPropagation();navigateToUnit('${ek}')" title="Go to unit card">⊞</button>
+          <button class="remove-btn" onclick="event.stopPropagation();removeRosterEntry(${rosterIdx})">✕</button>
+        </div>
+        <div class="entry-detail">
           <input class="entry-name-input" type="text"
-            placeholder="${a.name.replace(/"/g, '&quot;')}"
+            placeholder="Rename…"
             value="${customNameVal}"
             oninput="updateCustomName(${rosterIdx}, this.value)"
-            title="Click to rename this unit" />
+            title="Rename this unit" />
           ${unitTypeSubtitle}
-          <div class="entry-meta">${sizeText}${uniqueBadge}</div>
+          <div class="entry-meta">Unit Size: ${a.unit_size}${uniqueBadge}</div>
           ${optionsHtml}
         </div>
-        <div class="entry-cost">
-          ${a.cost}
-          <span class="entry-cost-pts">PTS</span>
-        </div>
-        <button class="remove-btn" onclick="removeRosterEntry(${rosterIdx})">✕</button>
       </div>`;
     });
+
+    html += `</div></div>`;
   });
 
-  list.querySelectorAll('.roster-entry, .roster-section-label').forEach(e => e.remove());
+  list.querySelectorAll('.roster-section, .roster-entry, .roster-section-label').forEach(e => e.remove());
   list.insertAdjacentHTML('afterbegin', html);
+  initRosterDragDrop();
   if (selectedFaction && activeType) renderUnits();
   updateBoostTokens();
 }
+
 
 // ─── MODAL ────────────────────────────────────────────────
 function openModal(key) {
@@ -1467,7 +1627,7 @@ function saveList() {
   const armyName = document.getElementById('armyName').value || 'Unnamed Warband';
   const data = {
     meta: { app: 'Ravaged Star Army List Builder', version: '2.0', savedAt: new Date().toISOString(), armyName, faction: selectedFaction, totalCost: getTotalCost(), totalUnits: getTotalUnits(), pointsLimit: unlimited ? 'unlimited' : pointsLimit },
-    roster: roster.map(e => ({ unitKey: e.unitKey, unitName: UNIT_DB[e.unitKey].admin.name, unitType: UNIT_DB[e.unitKey].admin.unit_type, cost: UNIT_DB[e.unitKey].admin.cost, qty: e.qty, totalCost: UNIT_DB[e.unitKey].admin.cost * e.qty }))
+    roster: roster.map(e => ({ unitKey: e.unitKey, unitName: UNIT_DB[e.unitKey].admin.name, unitType: UNIT_DB[e.unitKey].admin.unit_type, cost: UNIT_DB[e.unitKey].admin.cost, options: e.options || [], customName: e.customName || '' }))
   };
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
@@ -1732,7 +1892,7 @@ function handleFileImport(event) {
       if (!data.roster || !Array.isArray(data.roster)) throw new Error('Invalid format');
       document.getElementById('armyName').value = data.meta?.armyName || 'Imported Army';
       roster = [];
-      data.roster.forEach(entry => { if (UNIT_DB[entry.unitKey]) roster.push({ unitKey: entry.unitKey, qty: entry.qty || 1 }); });
+      data.roster.forEach(entry => { if (UNIT_DB[entry.unitKey]) roster.push({ unitKey: entry.unitKey, options: entry.options || [], customName: entry.customName || '', barColor: entry.barColor || null }); });
       if (data.meta?.faction) { selectedFaction = data.meta.faction; renderFactions(); const types = getUnitTypes(selectedFaction); if (types.length) { activeType = types[0]; } renderTabs(); renderUnits(); }
       if (data.meta?.pointsLimit === 'unlimited') { document.getElementById('unlimitedToggle').checked = true; } else if (data.meta?.pointsLimit) { document.getElementById('pointsSlider').value = data.meta.pointsLimit; }
       updatePointsLimit();
